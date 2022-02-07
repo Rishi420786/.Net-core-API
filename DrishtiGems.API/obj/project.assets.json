@@ -5096,11 +5096,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\DrishtiGems\\DrishtiGems.API\\DrishtiGems.API\\DrishtiGems.API.csproj",
+      "projectUniqueName": "D:\\DristiGit\\.Net-core-API\\DrishtiGems.API\\DrishtiGems.API.csproj",
       "projectName": "DrishtiGems.API",
-      "projectPath": "D:\\DrishtiGems\\DrishtiGems.API\\DrishtiGems.API\\DrishtiGems.API.csproj",
+      "projectPath": "D:\\DristiGit\\.Net-core-API\\DrishtiGems.API\\DrishtiGems.API.csproj",
       "packagesPath": "C:\\Users\\rishi\\.nuget\\packages\\",
-      "outputPath": "D:\\DrishtiGems\\DrishtiGems.API\\DrishtiGems.API\\obj\\",
+      "outputPath": "D:\\DristiGit\\.Net-core-API\\DrishtiGems.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5120,14 +5120,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\DrishtiGems\\DrishtiGems.API\\Common\\Common.csproj": {
-              "projectPath": "D:\\DrishtiGems\\DrishtiGems.API\\Common\\Common.csproj"
+            "D:\\DristiGit\\.Net-core-API\\Common\\Common.csproj": {
+              "projectPath": "D:\\DristiGit\\.Net-core-API\\Common\\Common.csproj"
             },
-            "D:\\DrishtiGems\\DrishtiGems.API\\Domain\\Domain.csproj": {
-              "projectPath": "D:\\DrishtiGems\\DrishtiGems.API\\Domain\\Domain.csproj"
+            "D:\\DristiGit\\.Net-core-API\\Domain\\Domain.csproj": {
+              "projectPath": "D:\\DristiGit\\.Net-core-API\\Domain\\Domain.csproj"
             },
-            "D:\\DrishtiGems\\DrishtiGems.API\\Services\\ServiceLayer.csproj": {
-              "projectPath": "D:\\DrishtiGems\\DrishtiGems.API\\Services\\ServiceLayer.csproj"
+            "D:\\DristiGit\\.Net-core-API\\Services\\ServiceLayer.csproj": {
+              "projectPath": "D:\\DristiGit\\.Net-core-API\\Services\\ServiceLayer.csproj"
             }
           }
         }

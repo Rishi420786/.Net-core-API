@@ -15,6 +15,11 @@ namespace DrishtiGems.API.Controllers
         {
             _env = env;
         }
+        /// <summary>
+        /// This method is use to upload images.
+        /// </summary>
+        /// <param name="imageFile"></param>
+        /// <returns></returns>
         [HttpPost]
         [Route("UploadImages")]
         public async Task<IActionResult> UploadImage(IFormFile imageFile)

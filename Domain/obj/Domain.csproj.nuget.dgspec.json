@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\DrishtiGems\\DrishtiGems.API\\Domain\\Domain.csproj": {}
+    "D:\\DristiGit\\.Net-core-API\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "D:\\DrishtiGems\\DrishtiGems.API\\Domain\\Domain.csproj": {
+    "D:\\DristiGit\\.Net-core-API\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DrishtiGems\\DrishtiGems.API\\Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\DristiGit\\.Net-core-API\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\DrishtiGems\\DrishtiGems.API\\Domain\\Domain.csproj",
+        "projectPath": "D:\\DristiGit\\.Net-core-API\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\rishi\\.nuget\\packages\\",
-        "outputPath": "D:\\DrishtiGems\\DrishtiGems.API\\Domain\\obj\\",
+        "outputPath": "D:\\DristiGit\\.Net-core-API\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

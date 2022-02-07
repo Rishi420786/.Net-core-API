@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6M2D6cyZyQyfp5VbxRQkRf7rSE9TxjrelmoNQBfOvpYRiI9u1sPNYR6UMBTufXlnN55wBhdqSqc99UIExOiXmw==",
+  "dgSpecHash": "8DzJjcr7rMrSXXs8GP2SXDSQ+JQ7Wso4x6S2TKTWbOsYGBJXhe1aj4kjxBupANOzBxwG/sAH+c13515lMuL1+w==",
   "success": true,
-  "projectFilePath": "D:\\DrishtiGems\\DrishtiGems.API\\Domain\\Domain.csproj",
+  "projectFilePath": "D:\\DristiGit\\.Net-core-API\\Domain\\Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\rishi\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",

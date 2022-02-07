@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wRO/VawsHnL7OeRCUvcHeES7HiOyGM5VNxZ+FR6b/7tBxFEoZfPuadYuTuYum+s4ElFHpMeoOHChy8uk/y1DYA==",
+  "dgSpecHash": "odRAgZ7gboAJH7Iysllp6Cuj1yvT2VDw4qASusziHXf90avKBpgX7PHn36B9q4rpGedEZ+jwcJZ7tAkf9e8WYw==",
   "success": true,
-  "projectFilePath": "D:\\DrishtiGems\\DrishtiGems.API\\DrishtiGems.API\\DrishtiGems.API.csproj",
+  "projectFilePath": "D:\\DristiGit\\.Net-core-API\\DrishtiGems.API\\DrishtiGems.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rishi\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
     "C:\\Users\\rishi\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
