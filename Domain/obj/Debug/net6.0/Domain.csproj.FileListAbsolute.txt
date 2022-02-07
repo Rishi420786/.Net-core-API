@@ -1,0 +1,11 @@
+D:\DrishtiGems\DrishtiGems.API\Domain\bin\Debug\net6.0\Domain.deps.json
+D:\DrishtiGems\DrishtiGems.API\Domain\bin\Debug\net6.0\Domain.dll
+D:\DrishtiGems\DrishtiGems.API\Domain\bin\Debug\net6.0\ref\Domain.dll
+D:\DrishtiGems\DrishtiGems.API\Domain\bin\Debug\net6.0\Domain.pdb
+D:\DrishtiGems\DrishtiGems.API\Domain\obj\Debug\net6.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\DrishtiGems\DrishtiGems.API\Domain\obj\Debug\net6.0\Domain.AssemblyInfoInputs.cache
+D:\DrishtiGems\DrishtiGems.API\Domain\obj\Debug\net6.0\Domain.AssemblyInfo.cs
+D:\DrishtiGems\DrishtiGems.API\Domain\obj\Debug\net6.0\Domain.csproj.CoreCompileInputs.cache
+D:\DrishtiGems\DrishtiGems.API\Domain\obj\Debug\net6.0\Domain.dll
+D:\DrishtiGems\DrishtiGems.API\Domain\obj\Debug\net6.0\ref\Domain.dll
+D:\DrishtiGems\DrishtiGems.API\Domain\obj\Debug\net6.0\Domain.pdb

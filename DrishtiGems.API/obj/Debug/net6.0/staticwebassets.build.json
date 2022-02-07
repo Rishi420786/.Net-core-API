@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "Hash": "Md7c2qo6RcM8yA0cQz2arrkr6qbNQA7YiHVfVustv8U=",
+  "Source": "DrishtiGems.API",
+  "BasePath": "_content/DrishtiGems.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "DrishtiGems.API\\wwwroot",
+      "Source": "DrishtiGems.API",
+      "ContentRoot": "D:\\DrishtiGems\\DrishtiGems.API\\DrishtiGems.API\\wwwroot\\",
+      "BasePath": "_content/DrishtiGems.API",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\DrishtiGems\\DrishtiGems.API\\DrishtiGems.API\\wwwroot\\ProductImages\\47db5281-79ba-4b18-9809-73876ec3521e-life motto.jpg",
+      "SourceId": "DrishtiGems.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DrishtiGems\\DrishtiGems.API\\DrishtiGems.API\\wwwroot\\",
+      "BasePath": "_content/DrishtiGems.API",
+      "RelativePath": "ProductImages/47db5281-79ba-4b18-9809-73876ec3521e-life motto.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\ProductImages\\47db5281-79ba-4b18-9809-73876ec3521e-life motto.jpg"
+    },
+    {
+      "Identity": "D:\\DrishtiGems\\DrishtiGems.API\\DrishtiGems.API\\wwwroot\\ProductVideos\\f0153344-63cf-4c29-acf4-dd546be337ce-Aamdani Atthani Kharcha Rupaiyaa (2001) Full Hindi Movie _ Govinda, Tabu, Juhi Chawla ( 480 X 480 ).mp4",
+      "SourceId": "DrishtiGems.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DrishtiGems\\DrishtiGems.API\\DrishtiGems.API\\wwwroot\\",
+      "BasePath": "_content/DrishtiGems.API",
+      "RelativePath": "ProductVideos/f0153344-63cf-4c29-acf4-dd546be337ce-Aamdani Atthani Kharcha Rupaiyaa (2001) Full Hindi Movie _ Govinda, Tabu, Juhi Chawla ( 480 X 480 ).mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\ProductVideos\\f0153344-63cf-4c29-acf4-dd546be337ce-Aamdani Atthani Kharcha Rupaiyaa (2001) Full Hindi Movie _ Govinda, Tabu, Juhi Chawla ( 480 X 480 ).mp4"
+    }
+  ]
+}

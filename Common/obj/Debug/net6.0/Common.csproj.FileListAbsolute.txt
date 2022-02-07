@@ -1,0 +1,17 @@
+D:\DrishtiGems\DrishtiGems.API\Common\bin\Debug\net6.0\Common.deps.json
+D:\DrishtiGems\DrishtiGems.API\Common\bin\Debug\net6.0\Common.dll
+D:\DrishtiGems\DrishtiGems.API\Common\bin\Debug\net6.0\ref\Common.dll
+D:\DrishtiGems\DrishtiGems.API\Common\bin\Debug\net6.0\Common.pdb
+D:\DrishtiGems\DrishtiGems.API\Common\obj\Debug\net6.0\Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\DrishtiGems\DrishtiGems.API\Common\obj\Debug\net6.0\Common.AssemblyInfoInputs.cache
+D:\DrishtiGems\DrishtiGems.API\Common\obj\Debug\net6.0\Common.AssemblyInfo.cs
+D:\DrishtiGems\DrishtiGems.API\Common\obj\Debug\net6.0\Common.csproj.CoreCompileInputs.cache
+D:\DrishtiGems\DrishtiGems.API\Common\obj\Debug\net6.0\Common.dll
+D:\DrishtiGems\DrishtiGems.API\Common\obj\Debug\net6.0\ref\Common.dll
+D:\DrishtiGems\DrishtiGems.API\Common\obj\Debug\net6.0\Common.pdb
+D:\DrishtiGems\DrishtiGems.API\Common\obj\Debug\net6.0\Common.CommonUtility.CommonResource.resources
+D:\DrishtiGems\DrishtiGems.API\Common\obj\Debug\net6.0\Common.csproj.GenerateResource.cache
+D:\DrishtiGems\DrishtiGems.API\Common\obj\Debug\net6.0\Common.csproj.AssemblyReference.cache
+D:\DrishtiGems\DrishtiGems.API\Common\bin\Debug\net6.0\Domain.dll
+D:\DrishtiGems\DrishtiGems.API\Common\bin\Debug\net6.0\Domain.pdb
+D:\DrishtiGems\DrishtiGems.API\Common\obj\Debug\net6.0\Common.csproj.CopyComplete

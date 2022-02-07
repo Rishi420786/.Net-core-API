@@ -1,0 +1,17 @@
+D:\DrishtiGems\DrishtiGems.API\Services\bin\Debug\net6.0\ServiceLayer.deps.json
+D:\DrishtiGems\DrishtiGems.API\Services\bin\Debug\net6.0\ServiceLayer.dll
+D:\DrishtiGems\DrishtiGems.API\Services\bin\Debug\net6.0\ref\ServiceLayer.dll
+D:\DrishtiGems\DrishtiGems.API\Services\bin\Debug\net6.0\ServiceLayer.pdb
+D:\DrishtiGems\DrishtiGems.API\Services\bin\Debug\net6.0\Domain.dll
+D:\DrishtiGems\DrishtiGems.API\Services\bin\Debug\net6.0\Domain.pdb
+D:\DrishtiGems\DrishtiGems.API\Services\obj\Debug\net6.0\ServiceLayer.csproj.AssemblyReference.cache
+D:\DrishtiGems\DrishtiGems.API\Services\obj\Debug\net6.0\ServiceLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\DrishtiGems\DrishtiGems.API\Services\obj\Debug\net6.0\ServiceLayer.AssemblyInfoInputs.cache
+D:\DrishtiGems\DrishtiGems.API\Services\obj\Debug\net6.0\ServiceLayer.AssemblyInfo.cs
+D:\DrishtiGems\DrishtiGems.API\Services\obj\Debug\net6.0\ServiceLayer.csproj.CoreCompileInputs.cache
+D:\DrishtiGems\DrishtiGems.API\Services\obj\Debug\net6.0\ServiceLayer.csproj.CopyComplete
+D:\DrishtiGems\DrishtiGems.API\Services\obj\Debug\net6.0\ServiceLayer.dll
+D:\DrishtiGems\DrishtiGems.API\Services\obj\Debug\net6.0\ref\ServiceLayer.dll
+D:\DrishtiGems\DrishtiGems.API\Services\obj\Debug\net6.0\ServiceLayer.pdb
+D:\DrishtiGems\DrishtiGems.API\Services\bin\Debug\net6.0\Common.dll
+D:\DrishtiGems\DrishtiGems.API\Services\bin\Debug\net6.0\Common.pdb

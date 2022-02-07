@@ -1,0 +1,7 @@
+D:\DrishtiGems\DrishtiGems.API\DrishtiGems.API\obj\Debug\net5.0\DrishtiGems.API.csproj.AssemblyReference.cache
+D:\DrishtiGems\DrishtiGems.API\DrishtiGems.API\obj\Debug\net5.0\DrishtiGems.API.GeneratedMSBuildEditorConfig.editorconfig
+D:\DrishtiGems\DrishtiGems.API\DrishtiGems.API\obj\Debug\net5.0\DrishtiGems.API.AssemblyInfoInputs.cache
+D:\DrishtiGems\DrishtiGems.API\DrishtiGems.API\obj\Debug\net5.0\DrishtiGems.API.AssemblyInfo.cs
+D:\DrishtiGems\DrishtiGems.API\DrishtiGems.API\obj\Debug\net5.0\DrishtiGems.API.csproj.CoreCompileInputs.cache
+D:\DrishtiGems\DrishtiGems.API\DrishtiGems.API\obj\Debug\net5.0\DrishtiGems.API.MvcApplicationPartsAssemblyInfo.cs
+D:\DrishtiGems\DrishtiGems.API\DrishtiGems.API\obj\Debug\net5.0\DrishtiGems.API.MvcApplicationPartsAssemblyInfo.cache
