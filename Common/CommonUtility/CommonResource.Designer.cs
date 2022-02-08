@@ -61,7 +61,16 @@ namespace Common.CommonUtility {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Image Uploaded Successfully..
+        ///   Looks up a localized string similar to Data fetched successfully..
+        /// </summary>
+        public static string DataFetched {
+            get {
+                return ResourceManager.GetString("DataFetched", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Image uploaded successfully..
         /// </summary>
         public static string ImageUploaded {
             get {
@@ -79,7 +88,43 @@ namespace Common.CommonUtility {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Users Fetched Successfully..
+        ///   Looks up a localized string similar to Rating saved successfully..
+        /// </summary>
+        public static string RatingCreated {
+            get {
+                return ResourceManager.GetString("RatingCreated", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Rating deleted successfully..
+        /// </summary>
+        public static string RatingDeleted {
+            get {
+                return ResourceManager.GetString("RatingDeleted", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Ratings fetched successfully..
+        /// </summary>
+        public static string RatingFecthed {
+            get {
+                return ResourceManager.GetString("RatingFecthed", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Rating updated successfully..
+        /// </summary>
+        public static string RatingUpdated {
+            get {
+                return ResourceManager.GetString("RatingUpdated", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Users fetched successfully..
         /// </summary>
         public static string UserFetched {
             get {
@@ -88,7 +133,16 @@ namespace Common.CommonUtility {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to User Saved Successfully..
+        ///   Looks up a localized string similar to User rating saved successfully..
+        /// </summary>
+        public static string UserRatingSaved {
+            get {
+                return ResourceManager.GetString("UserRatingSaved", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to User saved successfully..
         /// </summary>
         public static string UserSaved {
             get {
@@ -97,7 +151,7 @@ namespace Common.CommonUtility {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Video Uploaded Successfully..
+        ///   Looks up a localized string similar to Video uploaded successfully..
         /// </summary>
         public static string VideoUploaded {
             get {
@@ -106,7 +160,7 @@ namespace Common.CommonUtility {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Something went wrong.
+        ///   Looks up a localized string similar to Something went wrong!.
         /// </summary>
         public static string Wrong {
             get {

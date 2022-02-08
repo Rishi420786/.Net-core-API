@@ -1,6 +1,8 @@
 ﻿using Common.CommonUtility;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using ServiceLayer.Dto;
+using ServiceLayer.IServices;
 using IHostingEnvironment = Microsoft.AspNetCore.Hosting.IHostingEnvironment;
 
 namespace DrishtiGems.API.Controllers
@@ -11,9 +13,11 @@ namespace DrishtiGems.API.Controllers
     public class CommonController : ControllerBase
     {
         private readonly IHostingEnvironment _env;
-        public CommonController(IHostingEnvironment env)
+        private readonly ICommonService _commonService;
+        public CommonController(IHostingEnvironment env, ICommonService commonService)
         {
             _env = env;
+            _commonService = commonService;
         }
         /// <summary>
         /// This method is use to upload images.
@@ -54,6 +58,116 @@ namespace DrishtiGems.API.Controllers
                     await videoFile.CopyToAsync(stream);
                 }
                 return Ok(new { Message = CommonResource.VideoUploaded, StatusCode = StatusCodes.Status200OK, ImageName = path + "\\" + uniqueVideoName });
+            }
+            catch
+            {
+                return BadRequest();
+            }
+        }
+        [HttpPost]
+        [Route("CreateRating")]
+        public async Task<IActionResult> CreateRating(RatingDto rating)
+        {
+            try
+            {
+                bool isRatingSaved = await _commonService.CreateRating(rating);
+                if (isRatingSaved)
+                {
+                    return Ok(new { message = CommonResource.RatingCreated, StatusCode = StatusCodes.Status200OK });
+                }
+                else
+                {
+                    return StatusCode(StatusCodes.Status500InternalServerError, CommonResource.Wrong);
+                }
+            }
+            catch
+            {
+                return BadRequest();
+            }
+        }
+        [HttpGet]
+        [Route("GetAllRatings")]
+        public async Task<IActionResult> GetAllRatings(int? id)
+        {
+            try
+            {
+                return Ok(new { message = CommonResource.RatingFecthed, StatusCode = StatusCodes.Status200OK, data = await _commonService.GetRating(id) });
+            }
+            catch
+            {
+                return BadRequest();
+            }
+        }
+        [HttpPut]
+        [Route("UpdateRating")]
+        public async Task<IActionResult> UpdateRating(RatingDto rating)
+        {
+            try
+            {
+                bool isRatingUpdated = await _commonService.UpdateRating(rating);
+                if (isRatingUpdated)
+                {
+                    return Ok(new { message = CommonResource.RatingUpdated, StatusCode = StatusCodes.Status200OK });
+                }
+                else
+                {
+                    return StatusCode(StatusCodes.Status500InternalServerError, CommonResource.Wrong);
+                }
+            }
+            catch
+            {
+                return BadRequest();
+            }
+        }
+        [HttpDelete]
+        [Route("DeleteRating")]
+        public async Task<IActionResult> DeleteRating(int? id)
+        {
+            try
+            {
+                bool isRatingDeleted = await _commonService.DeleteRating(id);
+                if (isRatingDeleted)
+                {
+                    return Ok(new { message = CommonResource.RatingDeleted, StatusCode = StatusCodes.Status200OK });
+                }
+                else
+                {
+                    return StatusCode(StatusCodes.Status500InternalServerError, CommonResource.Wrong);
+                }
+            }
+            catch
+            {
+                return BadRequest();
+            }
+        }
+        [HttpPost]
+        [Route("SaveUserRating")]
+        public async Task<IActionResult> SaveUserRating(UserRatingDto userRating)
+        {
+            try
+            {
+                bool isUserRatingSaved = await _commonService.SaveUserRating(userRating);
+                if (isUserRatingSaved)
+                {
+                    return Ok(new { message = CommonResource.UserRatingSaved, StatusCode = StatusCodes.Status200OK });
+                }
+                else
+                {
+                    return StatusCode(StatusCodes.Status500InternalServerError, CommonResource.Wrong);
+                }
+            }
+            catch
+            {
+                return BadRequest();
+            }
+        }
+        [HttpGet]
+        [Route("GetUserRating")]
+        public async Task<IActionResult> GetUserRating(int? userId)
+        {
+            try
+            {
+                return Ok(new { message = CommonResource.DataFetched, StatusCode = StatusCodes.Status200OK, data = await _commonService.GetUserRating(userId) });
             }
             catch
             {

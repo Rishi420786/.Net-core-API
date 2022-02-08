@@ -15,5 +15,8 @@ namespace Domain.DataContext
 
         }
         public DbSet<TblUser> tblUsers { get; set; }
+        public DbSet<TblRole> tblRoles { get; set; }
+        public DbSet<TblRating> tblRatings { get; set; }    
+        public DbSet<TblUserRating> tblUserRatings { get; set; }
     }
 }

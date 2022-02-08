@@ -4,6 +4,7 @@ using Domain.DataContext;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,10 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Domain.Migrations
 {
     [DbContext(typeof(ApplicationDBContext))]
-    partial class ApplicationDBContextModelSnapshot : ModelSnapshot
+    [Migration("20220208051526_added tblRating and tblUserRating")]
+    partial class addedtblRatingandtblUserRating
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -147,9 +149,6 @@ namespace Domain.Migrations
                     b.Property<DateTime?>("CreatedDateTime")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("FromUserId")
-                        .HasColumnType("int");
-
                     b.Property<bool>("IsActive")
                         .HasColumnType("bit");
 
@@ -162,19 +161,17 @@ namespace Domain.Migrations
                     b.Property<int>("RatingId")
                         .HasColumnType("int");
 
-                    b.Property<int>("ToUserId")
+                    b.Property<int>("UpdatedBy")
                         .HasColumnType("int");
 
-                    b.Property<int>("UpdatedBy")
+                    b.Property<int>("UserId")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("FromUserId");
-
                     b.HasIndex("RatingId");
 
-                    b.HasIndex("ToUserId");
+                    b.HasIndex("UserId");
 
                     b.ToTable("tblUserRatings");
                 });
@@ -192,29 +189,21 @@ namespace Domain.Migrations
 
             modelBuilder.Entity("Domain.Entities.TblUserRating", b =>
                 {
-                    b.HasOne("Domain.Entities.TblUser", "UserTables")
-                        .WithMany()
-                        .HasForeignKey("FromUserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.HasOne("Domain.Entities.TblRating", "TblRating")
                         .WithMany()
                         .HasForeignKey("RatingId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Domain.Entities.TblUser", "User")
+                    b.HasOne("Domain.Entities.TblUser", "TblUser")
                         .WithMany()
-                        .HasForeignKey("ToUserId")
+                        .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("TblRating");
 
-                    b.Navigation("User");
-
-                    b.Navigation("UserTables");
+                    b.Navigation("TblUser");
                 });
 #pragma warning restore 612, 618
         }

@@ -117,22 +117,40 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="DataFetched" xml:space="preserve">
+    <value>Data fetched successfully.</value>
+  </data>
   <data name="ImageUploaded" xml:space="preserve">
-    <value>Image Uploaded Successfully.</value>
+    <value>Image uploaded successfully.</value>
   </data>
   <data name="IncorrectCredentials" xml:space="preserve">
     <value>Username or password is incorrect!</value>
   </data>
+  <data name="RatingCreated" xml:space="preserve">
+    <value>Rating saved successfully.</value>
+  </data>
+  <data name="RatingDeleted" xml:space="preserve">
+    <value>Rating deleted successfully.</value>
+  </data>
+  <data name="RatingFecthed" xml:space="preserve">
+    <value>Ratings fetched successfully.</value>
+  </data>
+  <data name="RatingUpdated" xml:space="preserve">
+    <value>Rating updated successfully.</value>
+  </data>
   <data name="UserFetched" xml:space="preserve">
-    <value>Users Fetched Successfully.</value>
+    <value>Users fetched successfully.</value>
+  </data>
+  <data name="UserRatingSaved" xml:space="preserve">
+    <value>User rating saved successfully.</value>
   </data>
   <data name="UserSaved" xml:space="preserve">
-    <value>User Saved Successfully.</value>
+    <value>User saved successfully.</value>
   </data>
   <data name="VideoUploaded" xml:space="preserve">
-    <value>Video Uploaded Successfully.</value>
+    <value>Video uploaded successfully.</value>
   </data>
   <data name="Wrong" xml:space="preserve">
-    <value>Something went wrong</value>
+    <value>Something went wrong!</value>
   </data>
 </root>

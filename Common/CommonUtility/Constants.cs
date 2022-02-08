@@ -10,5 +10,6 @@
         public const string UserId = "UserId";
         public const string RoleId= "RoleId";
         public const string EncryDecryKey = "E546C8DF278CD5931069B522E695D4F2";
+        public const string Space = " ";
     }
 }

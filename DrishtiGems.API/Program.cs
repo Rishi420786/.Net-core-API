@@ -73,15 +73,15 @@ builder.Services.AddAuthentication(option =>
         IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(configuration.GetSection("Jwt").GetSection("Key").Value)) //Configuration["JwtToken:SecretKey"]  
     };
 });
+
+
 builder.Services.Configure<AppSettings>(builder.Configuration.GetSection("AppSettings"));
 builder.Services.AddScoped<IUserService, UserService>();
-
-//var optionsBuilder = new DbContextOptionsBuilder();
+builder.Services.AddScoped<ICommonService, CommonService>();
 
 var connectionString = configuration
             .GetConnectionString("DefaultConnection");
 
-//optionsBuilder.UseSqlServer(connectionString);
 builder.Services.AddDbContext<ApplicationDBContext>(options => options.UseSqlServer(connectionString));
 var app = builder.Build();
 
@@ -97,7 +97,6 @@ app.UseCors(x => x
     .AllowAnyMethod()
     .AllowAnyHeader());
 
-// custom jwt auth middleware
 app.UseHttpsRedirection();
 app.UseAuthentication();
 app.UseAuthorization();

@@ -4,6 +4,7 @@ using Domain.DataContext;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,10 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Domain.Migrations
 {
     [DbContext(typeof(ApplicationDBContext))]
-    partial class ApplicationDBContextModelSnapshot : ModelSnapshot
+    [Migration("20220208053746_modified and added column in tbluserrating")]
+    partial class modifiedandaddedcolumnintbluserrating
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -192,7 +194,7 @@ namespace Domain.Migrations
 
             modelBuilder.Entity("Domain.Entities.TblUserRating", b =>
                 {
-                    b.HasOne("Domain.Entities.TblUser", "UserTables")
+                    b.HasOne("Domain.Entities.TblUser", "TblUser")
                         .WithMany()
                         .HasForeignKey("FromUserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -212,9 +214,9 @@ namespace Domain.Migrations
 
                     b.Navigation("TblRating");
 
-                    b.Navigation("User");
+                    b.Navigation("TblUser");
 
-                    b.Navigation("UserTables");
+                    b.Navigation("User");
                 });
 #pragma warning restore 612, 618
         }
