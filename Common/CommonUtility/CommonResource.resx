@@ -138,6 +138,12 @@
   <data name="RatingUpdated" xml:space="preserve">
     <value>Rating updated successfully.</value>
   </data>
+  <data name="RoleSaved" xml:space="preserve">
+    <value>Role created successfully.</value>
+  </data>
+  <data name="RolesFetched" xml:space="preserve">
+    <value>Roles fetched successfully.</value>
+  </data>
   <data name="UserFetched" xml:space="preserve">
     <value>Users fetched successfully.</value>
   </data>

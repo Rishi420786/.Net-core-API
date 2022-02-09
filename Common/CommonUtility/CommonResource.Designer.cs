@@ -124,6 +124,24 @@ namespace Common.CommonUtility {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Role created successfully..
+        /// </summary>
+        public static string RoleSaved {
+            get {
+                return ResourceManager.GetString("RoleSaved", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Roles fetched successfully..
+        /// </summary>
+        public static string RolesFetched {
+            get {
+                return ResourceManager.GetString("RolesFetched", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Users fetched successfully..
         /// </summary>
         public static string UserFetched {

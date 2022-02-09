@@ -4,11 +4,6 @@ namespace Domain.Entities
 {
     public class TblUserRating : BaseEntity
     {
-        //[ForeignKey("TblUsers")]
-        //[ForeignKey("UserTable")]
-        //public int FromUserId { get; set; }
-        //public virtual TblUser UserTable { get; set; }
-        //public virtual TblUser TblUsers { get; set; }
         [ForeignKey("User")]
         public int ToUserId { get; set; }
         public virtual TblUser User { get; set; }

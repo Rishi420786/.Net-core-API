@@ -73,7 +73,7 @@ namespace DrishtiGems.API.Controllers
                 bool isRatingSaved = await _commonService.CreateRating(rating);
                 if (isRatingSaved)
                 {
-                    return Ok(new { message = CommonResource.RatingCreated, StatusCode = StatusCodes.Status200OK });
+                    return Ok(new OkResponse(CommonResource.RatingCreated));
                 }
                 else
                 {

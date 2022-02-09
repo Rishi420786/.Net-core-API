@@ -78,6 +78,7 @@ builder.Services.AddAuthentication(option =>
 builder.Services.Configure<AppSettings>(builder.Configuration.GetSection("AppSettings"));
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<ICommonService, CommonService>();
+builder.Services.AddScoped<IAdminService, AdminService>();
 
 var connectionString = configuration
             .GetConnectionString("DefaultConnection");
