@@ -13,6 +13,9 @@ namespace DrishtiGems.API.Model
 
             CreateMap<RatingDto, TblRating>().ReverseMap();
             CreateMap<UserRatingDto, TblUserRating>().ReverseMap();
+
+            CreateMap<CategoryDto, TblCategory>().ReverseMap();
+            CreateMap<AddCategoryColorDto, TblCategoryStoneColor>().ReverseMap();
         }
     }
 }

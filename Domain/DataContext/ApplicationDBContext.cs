@@ -17,8 +17,10 @@ namespace Domain.DataContext
         public DbSet<TblRolePermissions> tblRolePermissions { get; set; }
         public DbSet<TblStoneMaster> tblStoneMaster { get; set;}
         public DbSet<TblStoneShapeMaster> tblStoneShapeMaster { get; set; }
-        public DbSet<TblStoneColorMaster> tblStoneColorMaster { get; set; }
         public DbSet<TblStoneCutMaster> tblStoneCutMaster { get;set; }
-        public DbSet<TblQualityMaster> tblQualityMaster { get; set; }   
+        public DbSet<TblQualityMaster> tblQualityMaster { get; set; }
+        public DbSet<TblGstMaster> tblGstMaster { get; set; }
+        public DbSet<TblCategory> tblCategories { get; set; }
+        public DbSet<TblCategoryStoneColor> tblCategoryStoneColors { get; set; }
     }
 }

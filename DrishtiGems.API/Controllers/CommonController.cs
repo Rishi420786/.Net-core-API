@@ -32,7 +32,7 @@ namespace DrishtiGems.API.Controllers
             {
                 string path = Path.Combine(_env.WebRootPath, Constants.ProductImages);
                 string uniqueImageName = Guid.NewGuid().ToString() + Constants.Hyphen + imageFile.FileName;
-                using (FileStream stream = new FileStream(Path.Combine(path, uniqueImageName), FileMode.Create))
+                using (FileStream stream = new(Path.Combine(path, uniqueImageName), FileMode.Create))
                 {
                     await imageFile.CopyToAsync(stream);
                 }
@@ -53,7 +53,7 @@ namespace DrishtiGems.API.Controllers
             {
                 string path = Path.Combine(_env.WebRootPath, Constants.ProductVideos);
                 string uniqueVideoName = Guid.NewGuid().ToString() + Constants.Hyphen + videoFile.FileName;
-                using (FileStream stream = new FileStream(Path.Combine(path, uniqueVideoName), FileMode.Create))
+                using (FileStream stream = new(Path.Combine(path, uniqueVideoName), FileMode.Create))
                 {
                     await videoFile.CopyToAsync(stream);
                 }

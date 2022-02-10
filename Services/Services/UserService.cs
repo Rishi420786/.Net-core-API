@@ -43,7 +43,7 @@ namespace ServiceLayer.Services
             }
             else
             {
-                var token = generateJwtToken(user);
+                var token = GenerateJwtToken(user);
 
                 return new AuthenticateResponse(user, token);
             }
@@ -69,15 +69,15 @@ namespace ServiceLayer.Services
         {
             return _mapper.Map<IList<UserDto>>(await _dBContext.tblUsers.ToListAsync());
         }
-        private string generateJwtToken(TblUser user)
+        private string GenerateJwtToken(TblUser user)
         {
             var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration[Constants.JwtKeyPath]));
             var credentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
-            var claimss = new ClaimsIdentity(new[] { new Claim(Constants.UserId, user.Id.ToString()) });
-            claimss.AddClaim(new Claim(Constants.RoleId, user.RoleId.ToString()));
+            var claims = new ClaimsIdentity(new[] { new Claim(Constants.UserId, user.Id.ToString()) });
+            claims.AddClaim(new Claim(Constants.RoleId, user.RoleId.ToString()));
             var token = new JwtSecurityToken(_configuration[Constants.JwtIssuerPath],
               _configuration[Constants.JwtIssuerPath],
-              claimss.Claims,
+              claims.Claims,
               expires: DateTime.Now.AddMinutes(120),
               signingCredentials: credentials
               );

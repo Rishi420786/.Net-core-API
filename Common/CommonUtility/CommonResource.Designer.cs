@@ -61,6 +61,69 @@ namespace Common.CommonUtility {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Category color deleted successfully..
+        /// </summary>
+        public static string CategoryColorDeleted {
+            get {
+                return ResourceManager.GetString("CategoryColorDeleted", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Category color created successfully..
+        /// </summary>
+        public static string CategoryColorSaved {
+            get {
+                return ResourceManager.GetString("CategoryColorSaved", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Category created successfully..
+        /// </summary>
+        public static string CategoryCreated {
+            get {
+                return ResourceManager.GetString("CategoryCreated", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Category deleted successfully..
+        /// </summary>
+        public static string CategoryDeleted {
+            get {
+                return ResourceManager.GetString("CategoryDeleted", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Category already exists!.
+        /// </summary>
+        public static string CategoryExists {
+            get {
+                return ResourceManager.GetString("CategoryExists", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Category updated successfully..
+        /// </summary>
+        public static string CategoryUpdated {
+            get {
+                return ResourceManager.GetString("CategoryUpdated", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Color already exists!.
+        /// </summary>
+        public static string ColorExists {
+            get {
+                return ResourceManager.GetString("ColorExists", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Data fetched successfully..
         /// </summary>
         public static string DataFetched {
@@ -124,6 +187,15 @@ namespace Common.CommonUtility {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Role already exists!.
+        /// </summary>
+        public static string RoleExists {
+            get {
+                return ResourceManager.GetString("RoleExists", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Role created successfully..
         /// </summary>
         public static string RoleSaved {
@@ -138,6 +210,15 @@ namespace Common.CommonUtility {
         public static string RolesFetched {
             get {
                 return ResourceManager.GetString("RolesFetched", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Success.
+        /// </summary>
+        public static string Success {
+            get {
+                return ResourceManager.GetString("Success", resourceCulture);
             }
         }
         

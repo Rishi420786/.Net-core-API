@@ -2,10 +2,10 @@
 
 namespace Domain.Entities
 {
-    public class TblStoneColorMaster
+    public class TblGstMaster
     {
         [Key]
         public int Id { get; set; }
-        public string ColorName { get; set; }
+        public double Gst { get; set; }
     }
 }

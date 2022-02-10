@@ -117,6 +117,27 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="CategoryColorDeleted" xml:space="preserve">
+    <value>Category color deleted successfully.</value>
+  </data>
+  <data name="CategoryColorSaved" xml:space="preserve">
+    <value>Category color created successfully.</value>
+  </data>
+  <data name="CategoryCreated" xml:space="preserve">
+    <value>Category created successfully.</value>
+  </data>
+  <data name="CategoryDeleted" xml:space="preserve">
+    <value>Category deleted successfully.</value>
+  </data>
+  <data name="CategoryExists" xml:space="preserve">
+    <value>Category already exists!</value>
+  </data>
+  <data name="CategoryUpdated" xml:space="preserve">
+    <value>Category updated successfully.</value>
+  </data>
+  <data name="ColorExists" xml:space="preserve">
+    <value>Color already exists!</value>
+  </data>
   <data name="DataFetched" xml:space="preserve">
     <value>Data fetched successfully.</value>
   </data>
@@ -138,11 +159,17 @@
   <data name="RatingUpdated" xml:space="preserve">
     <value>Rating updated successfully.</value>
   </data>
+  <data name="RoleExists" xml:space="preserve">
+    <value>Role already exists!</value>
+  </data>
   <data name="RoleSaved" xml:space="preserve">
     <value>Role created successfully.</value>
   </data>
   <data name="RolesFetched" xml:space="preserve">
     <value>Roles fetched successfully.</value>
+  </data>
+  <data name="Success" xml:space="preserve">
+    <value>Success</value>
   </data>
   <data name="UserFetched" xml:space="preserve">
     <value>Users fetched successfully.</value>
