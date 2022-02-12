@@ -4,6 +4,7 @@
     {
         public const string ProductVideos = "ProductVideos";
         public const string ProductImages = "ProductImages";
+        public const string CategoryImages = "CategoryImages";
         public const string Hyphen = "-";
         public const string JwtKeyPath = "Jwt:Key";
         public const string JwtIssuerPath = "Jwt:Issuer";

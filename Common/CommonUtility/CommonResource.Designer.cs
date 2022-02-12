@@ -214,6 +214,33 @@ namespace Common.CommonUtility {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Stone Shape deleted successfully..
+        /// </summary>
+        public static string StoneShapeDeleted {
+            get {
+                return ResourceManager.GetString("StoneShapeDeleted", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Stone Shape created successfully..
+        /// </summary>
+        public static string StoneShapeSaved {
+            get {
+                return ResourceManager.GetString("StoneShapeSaved", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Stone Shape updated successfully..
+        /// </summary>
+        public static string StoneShapeUpdated {
+            get {
+                return ResourceManager.GetString("StoneShapeUpdated", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Success.
         /// </summary>
         public static string Success {

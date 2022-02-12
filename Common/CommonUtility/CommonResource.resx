@@ -168,6 +168,15 @@
   <data name="RolesFetched" xml:space="preserve">
     <value>Roles fetched successfully.</value>
   </data>
+  <data name="StoneShapeDeleted" xml:space="preserve">
+    <value>Stone Shape deleted successfully.</value>
+  </data>
+  <data name="StoneShapeSaved" xml:space="preserve">
+    <value>Stone Shape created successfully.</value>
+  </data>
+  <data name="StoneShapeUpdated" xml:space="preserve">
+    <value>Stone Shape updated successfully.</value>
+  </data>
   <data name="Success" xml:space="preserve">
     <value>Success</value>
   </data>

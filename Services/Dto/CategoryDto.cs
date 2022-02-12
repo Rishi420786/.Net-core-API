@@ -20,5 +20,6 @@ namespace ServiceLayer.Dto
         public double SpecificGravity { get; set; }
         public string Comment { get; set; }
         public IFormFile ImageFile { get; set; }
+        public string ImageFileName { get; set; }
     }
 }

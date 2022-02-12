@@ -27,7 +27,7 @@ builder.Services.AddSwaggerGen(swagger =>
     {
         Version = "v1",
         Title = "Drishti Gems API",
-        Description = "ASP.NET Core Web API"
+        Description = "Drishti Gems Web API"
     });
     // To Enable authorization using Swagger (JWT)  
     swagger.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme()
@@ -79,6 +79,7 @@ builder.Services.Configure<AppSettings>(builder.Configuration.GetSection("AppSet
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<ICommonService, CommonService>();
 builder.Services.AddScoped<IAdminService, AdminService>();
+builder.Services.AddScoped<IStoneShapeService, StoneShapeService>();
 
 var connectionString = configuration
             .GetConnectionString("DefaultConnection");

@@ -159,7 +159,7 @@ namespace ServiceLayer.Services
         {
             try
             {
-                TblCategory tblCategory=_mapper.Map<TblCategory>(category);
+                TblCategory tblCategory = _mapper.Map<TblCategory>(category);
                 if (tblCategory != null)
                 {
                     _context.Entry(tblCategory).State = EntityState.Modified;
@@ -168,7 +168,7 @@ namespace ServiceLayer.Services
                 }
                 else
                 {
-                    return false; 
+                    return false;
                 }
             }
             catch
@@ -256,7 +256,7 @@ namespace ServiceLayer.Services
         {
             try
             {
-                bool isRoleExist = await _context.tblRoles.AnyAsync(x => x.RoleName == roleName);
+                bool isRoleExist = await _context.tblRoles.AnyAsync(x => x.RoleName.ToLower() == roleName);
                 return isRoleExist;
             }
             catch
@@ -268,7 +268,7 @@ namespace ServiceLayer.Services
         {
             try
             {
-                bool isCategoryExist = await _context.tblCategories.AnyAsync(x => x.CategoryName == categoryName);
+                bool isCategoryExist = await _context.tblCategories.AnyAsync(x => x.CategoryName.ToLower() == categoryName);
                 return isCategoryExist;
             }
             catch
@@ -280,7 +280,7 @@ namespace ServiceLayer.Services
         {
             try
             {
-                bool isColorExist = await _context.tblCategoryStoneColors.AnyAsync(x => x.CategoryColor == colorName);
+                bool isColorExist = await _context.tblCategoryStoneColors.AnyAsync(x => x.CategoryColor.ToLower() == colorName);
                 return isColorExist;
             }
             catch

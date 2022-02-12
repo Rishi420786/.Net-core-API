@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using ServiceLayer.Dto;
 using ServiceLayer.IServices;
+using IHostingEnvironment = Microsoft.AspNetCore.Hosting.IHostingEnvironment;
 
 namespace DrishtiGems.API.Controllers
 {
@@ -12,9 +13,11 @@ namespace DrishtiGems.API.Controllers
     public class AdminController : ControllerBase
     {
         private readonly IAdminService _adminService;
-        public AdminController(IAdminService adminService)
+        private readonly IHostingEnvironment _env;
+        public AdminController(IAdminService adminService, IHostingEnvironment env)
         {
             _adminService = adminService;
+            _env = env;
         }
         [HttpPost]
         [Route("CreateRole")]
@@ -65,6 +68,13 @@ namespace DrishtiGems.API.Controllers
             {
                 if (!await _adminService.IsCategoryExist(category.CategoryName))
                 {
+                    string path = Path.Combine(_env.WebRootPath, Constants.CategoryImages);
+                    string uniqueImageName = Guid.NewGuid().ToString() + Constants.Hyphen + category.ImageFile.FileName;
+                    category.ImageFileName = uniqueImageName;
+                    using (FileStream stream = new(Path.Combine(path, uniqueImageName), FileMode.Create))
+                    {
+                        await category.ImageFile.CopyToAsync(stream);
+                    }
                     bool IsCategorySaved = await _adminService.CreateCategory(category);
                     if (IsCategorySaved)
                     {
@@ -113,18 +123,37 @@ namespace DrishtiGems.API.Controllers
         }
         [HttpPut]
         [Route("UpdateCategory")]
-        public async Task<IActionResult>UpdateCategory(CategoryDto category)
+        public async Task<IActionResult> UpdateCategory(CategoryDto category)
         {
             try
             {
-                bool result = await _adminService.UpdateCategory(category);
-                if (result)
+                if (!await _adminService.IsCategoryExist(category.CategoryName))
                 {
-                    return Ok(new OkResponse(CommonResource.CategoryUpdated));
+                    string path = Path.Combine(_env.WebRootPath, Constants.CategoryImages);
+                    string uniqueImageName = Guid.NewGuid().ToString() + Constants.Hyphen + category.ImageFile.FileName;
+                    category.ImageFileName = uniqueImageName;
+                    FileInfo fileInfo = new FileInfo(uniqueImageName);
+                    if (!fileInfo.Exists)
+                    {
+                        using (FileStream stream = new(Path.Combine(path, uniqueImageName), FileMode.Create))
+                        {
+                            await category.ImageFile.CopyToAsync(stream);
+                        }
+                    }
+
+                    bool result = await _adminService.UpdateCategory(category);
+                    if (result)
+                    {
+                        return Ok(new OkResponse(CommonResource.CategoryUpdated));
+                    }
+                    else
+                    {
+                        return StatusCode(StatusCodes.Status409Conflict, CommonResource.CategoryExists);
+                    }
                 }
                 else
                 {
-                    return StatusCode(StatusCodes.Status409Conflict, CommonResource.CategoryExists);
+                    return StatusCode(StatusCodes.Status500InternalServerError, CommonResource.Wrong);
                 }
             }
             catch
