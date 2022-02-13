@@ -60,6 +60,19 @@ namespace DrishtiGems.API.Controllers
                 return BadRequest();
             }
         }
+        [HttpGet]
+        [Route("GetAllPermissions")]
+        public async Task<IActionResult> GetAllPermissions()
+        {
+            try
+            {
+                return Ok(new OkResponse(CommonResource.Success, await _adminService.GetAllPermissions()));
+            }
+            catch
+            {
+                return BadRequest();
+            }
+        }
         [HttpPost]
         [Route("CreateCategory")]
         public async Task<IActionResult> CreateCategory(CategoryDto category)

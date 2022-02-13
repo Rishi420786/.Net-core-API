@@ -288,5 +288,16 @@ namespace ServiceLayer.Services
                 throw;
             }
         }
+        public async Task<IList<RolePages>> GetAllPermissions()
+        {
+            try
+            {
+                return _mapper.Map<IList<RolePages>>(await _context.tblRolePageMaster.ToListAsync());
+            }
+            catch
+            {
+                throw;
+            }
+        }
     }
 }

@@ -17,5 +17,6 @@ namespace ServiceLayer.IServices
         Task<bool> IsRoleExist(string roleName);
         Task<bool>IsCategoryExist(string categoryName);
         Task<bool> IsColorExist(string colorName);
+        Task<IList<RolePages>> GetAllPermissions();
     }
 }

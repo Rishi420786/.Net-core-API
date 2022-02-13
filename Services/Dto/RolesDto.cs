@@ -16,4 +16,9 @@
         public int Id { get; set; }
         public string RolePermission { get; set; }
     }
+    public class RolePages
+    {
+        public int Id { get; set; }
+        public string PageName { get; set; }
+    }
 }

@@ -17,7 +17,9 @@ namespace DrishtiGems.API.Model
             CreateMap<CategoryDto, TblCategory>().ReverseMap();
             CreateMap<AddCategoryColorDto, TblCategoryStoneColor>().ReverseMap();
 
-            CreateMap<StoneShapeDto,TblStoneShapeMaster>().ReverseMap();
+            CreateMap<StoneShapeDto, TblStoneShapeMaster>().ReverseMap();
+
+            CreateMap<TblRolePageMaster, RolePages>().ReverseMap();
         }
     }
 }
