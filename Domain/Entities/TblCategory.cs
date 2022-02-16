@@ -1,5 +1,4 @@
-﻿using Microsoft.AspNetCore.Http;
-using System.ComponentModel.DataAnnotations.Schema;
+﻿using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Domain.Entities
 {
@@ -14,9 +13,6 @@ namespace Domain.Entities
         [ForeignKey("StoneShapeMaster")]
         public int StoneShapeId { get; set; }
         public virtual TblStoneShapeMaster StoneShapeMaster { get; set; }
-        [ForeignKey("TblCategoryStoneColor")]
-        public int StoneColorId { get; set; }
-        public virtual TblCategoryStoneColor TblCategoryStoneColor { get; set; }
         [ForeignKey("GstMaster")]
         public int GstId { get; set; }
         public virtual TblGstMaster GstMaster { get; set; }

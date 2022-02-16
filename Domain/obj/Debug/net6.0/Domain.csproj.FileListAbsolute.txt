@@ -20,4 +20,3 @@ D:\DristiGit\.Net-core-API\Domain\obj\Debug\net6.0\Domain.csproj.CoreCompileInpu
 D:\DristiGit\.Net-core-API\Domain\obj\Debug\net6.0\Domain.dll
 D:\DristiGit\.Net-core-API\Domain\obj\Debug\net6.0\ref\Domain.dll
 D:\DristiGit\.Net-core-API\Domain\obj\Debug\net6.0\Domain.pdb
-D:\DristiGit\.Net-core-API\Domain\obj\Debug\net6.0\Domain.csproj.AssemblyReference.cache

@@ -23,5 +23,7 @@ namespace Domain.DataContext
         public DbSet<TblCategory> tblCategories { get; set; }
         public DbSet<TblCategoryStoneColor> tblCategoryStoneColors { get; set; }
         public DbSet<TblProduct> tblProduct { get; set; }
+        public DbSet<TblEmployeeMaster> tblEmployeeMaster { get; set; }
+        public DbSet<TblDealers> tblDealers { get; set; }
     }
 }

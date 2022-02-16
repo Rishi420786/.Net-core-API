@@ -18,5 +18,6 @@
         public double SpecificGravity { get; set; }
         public string Comment { get; set; }
         public string ImageFileName { get; set; }
+        public bool IsActive { get; set; }
     }
 }

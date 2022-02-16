@@ -147,6 +147,15 @@
   <data name="IncorrectCredentials" xml:space="preserve">
     <value>Username or password is incorrect!</value>
   </data>
+  <data name="ProductDeleted" xml:space="preserve">
+    <value>Product deleted successfully.</value>
+  </data>
+  <data name="ProductSaved" xml:space="preserve">
+    <value>Product saved successfully.</value>
+  </data>
+  <data name="ProductUpdated" xml:space="preserve">
+    <value>Product updated successfully.</value>
+  </data>
   <data name="RatingCreated" xml:space="preserve">
     <value>Rating saved successfully.</value>
   </data>

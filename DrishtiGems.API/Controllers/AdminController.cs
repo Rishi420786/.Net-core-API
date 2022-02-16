@@ -75,18 +75,21 @@ namespace DrishtiGems.API.Controllers
         }
         [HttpPost]
         [Route("CreateCategory")]
-        public async Task<IActionResult> CreateCategory(CategoryDto category)
+        public async Task<IActionResult> CreateCategory([FromForm] CategoryDto category)
         {
             try
             {
                 if (!await _adminService.IsCategoryExist(category.CategoryName))
                 {
-                    string path = Path.Combine(_env.WebRootPath, Constants.CategoryImages);
-                    string uniqueImageName = Guid.NewGuid().ToString() + Constants.Hyphen + category.ImageFile.FileName;
-                    category.ImageFileName = uniqueImageName;
-                    using (FileStream stream = new(Path.Combine(path, uniqueImageName), FileMode.Create))
+                    if (category.ImageFile != null)
                     {
-                        await category.ImageFile.CopyToAsync(stream);
+                        string path = Path.Combine(_env.WebRootPath, Constants.CategoryImages);
+                        string uniqueImageName = Guid.NewGuid().ToString() + Constants.Hyphen + category.ImageFile.FileName;
+                        category.ImageFileName = uniqueImageName;
+                        using (FileStream stream = new(Path.Combine(path, uniqueImageName), FileMode.Create))
+                        {
+                            await category.ImageFile.CopyToAsync(stream);
+                        }
                     }
                     bool IsCategorySaved = await _adminService.CreateCategory(category);
                     if (IsCategorySaved)
@@ -136,24 +139,26 @@ namespace DrishtiGems.API.Controllers
         }
         [HttpPut]
         [Route("UpdateCategory")]
-        public async Task<IActionResult> UpdateCategory(CategoryDto category)
+        public async Task<IActionResult> UpdateCategory([FromForm] CategoryDto category)
         {
             try
             {
                 if (!await _adminService.IsCategoryExist(category.CategoryName))
                 {
-                    string path = Path.Combine(_env.WebRootPath, Constants.CategoryImages);
-                    string uniqueImageName = Guid.NewGuid().ToString() + Constants.Hyphen + category.ImageFile.FileName;
-                    category.ImageFileName = uniqueImageName;
-                    FileInfo fileInfo = new FileInfo(uniqueImageName);
-                    if (!fileInfo.Exists)
+                    if (category.ImageFile != null)
                     {
-                        using (FileStream stream = new(Path.Combine(path, uniqueImageName), FileMode.Create))
+                        string path = Path.Combine(_env.WebRootPath, Constants.CategoryImages);
+                        string uniqueImageName = Guid.NewGuid().ToString() + Constants.Hyphen + category.ImageFile.FileName;
+                        category.ImageFileName = uniqueImageName;
+                        FileInfo fileInfo = new FileInfo(uniqueImageName);
+                        if (!fileInfo.Exists)
                         {
-                            await category.ImageFile.CopyToAsync(stream);
+                            using (FileStream stream = new(Path.Combine(path, uniqueImageName), FileMode.Create))
+                            {
+                                await category.ImageFile.CopyToAsync(stream);
+                            }
                         }
                     }
-
                     bool result = await _adminService.UpdateCategory(category);
                     if (result)
                     {
@@ -214,7 +219,7 @@ namespace DrishtiGems.API.Controllers
         {
             try
             {
-                if (!await _adminService.IsColorExist(addCategoryColor.Name))
+                if (!await _adminService.IsColorExist(addCategoryColor.CategoryColor))
                 {
                     bool result = await _adminService.CreateCategoryColor(addCategoryColor);
                     if (result)

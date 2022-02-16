@@ -21,5 +21,6 @@ namespace ServiceLayer.Dto
         public string Comment { get; set; }
         public IFormFile ImageFile { get; set; }
         public string ImageFileName { get; set; }
+        public bool IsActive { get; set; }
     }
 }

@@ -74,7 +74,7 @@ namespace ServiceLayer.Services
             {
                 TblCategory tblCategory = _mapper.Map<TblCategory>(category);
                 await _context.AddAsync(tblCategory);
-                bool result = Convert.ToBoolean(_context.SaveChangesAsync());
+                bool result = Convert.ToBoolean(await _context.SaveChangesAsync());
                 return result;
             }
             catch
@@ -89,7 +89,6 @@ namespace ServiceLayer.Services
                 var allcategories = await (from categories in _context.tblCategories
                                            join stonecut in _context.tblStoneCutMaster on categories.StoneCutId equals stonecut.Id
                                            join stoneshape in _context.tblStoneShapeMaster on categories.StoneShapeId equals stoneshape.Id
-                                           join stonecolor in _context.tblCategoryStoneColors on categories.StoneColorId equals stonecolor.Id
                                            join gst in _context.tblGstMaster on categories.GstId equals gst.Id
                                            join quality in _context.tblQualityMaster on categories.QualityId equals quality.Id
                                            select new GetCategoryDto
@@ -106,10 +105,10 @@ namespace ServiceLayer.Services
                                                Quality = quality.QualityName,
                                                ReferactiveIndex = categories.ReferactiveIndex,
                                                SpecificGravity = categories.SpecificGravity,
-                                               StoneColor = stonecolor.CategoryColor,
                                                StoneCut = stonecut.StoneCutName,
                                                StoneShape = stoneshape.ShapeName,
-                                               UniqueNumber = categories.UniqueNumber
+                                               UniqueNumber = categories.UniqueNumber,
+                                               IsActive = categories.IsActive
                                            }).ToListAsync();
                 return allcategories;
             }
@@ -125,7 +124,6 @@ namespace ServiceLayer.Services
                 var category = await (from categories in _context.tblCategories
                                       join stonecut in _context.tblStoneCutMaster on categories.StoneCutId equals stonecut.Id
                                       join stoneshape in _context.tblStoneShapeMaster on categories.StoneShapeId equals stoneshape.Id
-                                      join stonecolor in _context.tblCategoryStoneColors on categories.StoneColorId equals stonecolor.Id
                                       join gst in _context.tblGstMaster on categories.GstId equals gst.Id
                                       join quality in _context.tblQualityMaster on categories.QualityId equals quality.Id
                                       where categories.Id == id
@@ -143,7 +141,6 @@ namespace ServiceLayer.Services
                                           Quality = quality.QualityName,
                                           ReferactiveIndex = categories.ReferactiveIndex,
                                           SpecificGravity = categories.SpecificGravity,
-                                          StoneColor = stonecolor.CategoryColor,
                                           StoneCut = stonecut.StoneCutName,
                                           StoneShape = stoneshape.ShapeName,
                                           UniqueNumber = categories.UniqueNumber
@@ -201,8 +198,8 @@ namespace ServiceLayer.Services
         {
             try
             {
-                var CategoryColors = await (from category in _context.tblCategories
-                                            join color in _context.tblCategoryStoneColors on category.StoneColorId equals color.Id
+                var CategoryColors = await (from color in _context.tblCategoryStoneColors
+                                            join category in _context.tblCategories on color.Category_Id equals category.Id
                                             select new CategoryColorDto
                                             {
                                                 Id = color.Id,
@@ -222,8 +219,9 @@ namespace ServiceLayer.Services
             try
             {
                 TblCategoryStoneColor tblCategoryStoneColor = _mapper.Map<TblCategoryStoneColor>(addCategoryColor);
+                tblCategoryStoneColor.CreatedDateTime = DateTime.Now;
                 await _context.AddAsync(tblCategoryStoneColor);
-                bool result = Convert.ToBoolean(_context.SaveChangesAsync());
+                bool result = Convert.ToBoolean(await _context.SaveChangesAsync());
                 return result;
             }
             catch

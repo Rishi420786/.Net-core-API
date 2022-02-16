@@ -151,6 +151,33 @@ namespace Common.CommonUtility {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Product deleted successfully..
+        /// </summary>
+        public static string ProductDeleted {
+            get {
+                return ResourceManager.GetString("ProductDeleted", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Product saved successfully..
+        /// </summary>
+        public static string ProductSaved {
+            get {
+                return ResourceManager.GetString("ProductSaved", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Product updated successfully..
+        /// </summary>
+        public static string ProductUpdated {
+            get {
+                return ResourceManager.GetString("ProductUpdated", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Rating saved successfully..
         /// </summary>
         public static string RatingCreated {
