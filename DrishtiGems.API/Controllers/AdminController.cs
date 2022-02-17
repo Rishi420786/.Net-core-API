@@ -143,31 +143,24 @@ namespace DrishtiGems.API.Controllers
         {
             try
             {
-                if (!await _adminService.IsCategoryExist(category.CategoryName))
+                if (category.ImageFile != null)
                 {
-                    if (category.ImageFile != null)
+                    string path = Path.Combine(_env.WebRootPath, Constants.CategoryImages);
+                    string uniqueImageName = Guid.NewGuid().ToString() + Constants.Hyphen + category.ImageFile.FileName;
+                    category.ImageFileName = uniqueImageName;
+                    FileInfo fileInfo = new FileInfo(uniqueImageName);
+                    if (!fileInfo.Exists)
                     {
-                        string path = Path.Combine(_env.WebRootPath, Constants.CategoryImages);
-                        string uniqueImageName = Guid.NewGuid().ToString() + Constants.Hyphen + category.ImageFile.FileName;
-                        category.ImageFileName = uniqueImageName;
-                        FileInfo fileInfo = new FileInfo(uniqueImageName);
-                        if (!fileInfo.Exists)
+                        using (FileStream stream = new(Path.Combine(path, uniqueImageName), FileMode.Create))
                         {
-                            using (FileStream stream = new(Path.Combine(path, uniqueImageName), FileMode.Create))
-                            {
-                                await category.ImageFile.CopyToAsync(stream);
-                            }
+                            await category.ImageFile.CopyToAsync(stream);
                         }
                     }
-                    bool result = await _adminService.UpdateCategory(category);
-                    if (result)
-                    {
-                        return Ok(new OkResponse(CommonResource.CategoryUpdated));
-                    }
-                    else
-                    {
-                        return StatusCode(StatusCodes.Status409Conflict, CommonResource.CategoryExists);
-                    }
+                }
+                bool result = await _adminService.UpdateCategory(category);
+                if (result)
+                {
+                    return Ok(new OkResponse(CommonResource.CategoryUpdated));
                 }
                 else
                 {

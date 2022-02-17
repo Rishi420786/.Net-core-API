@@ -133,6 +133,42 @@ namespace Common.CommonUtility {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Dealer deleted successfully..
+        /// </summary>
+        public static string DealerDeleted {
+            get {
+                return ResourceManager.GetString("DealerDeleted", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Dealer already exists. Please try with other username..
+        /// </summary>
+        public static string DealerExists {
+            get {
+                return ResourceManager.GetString("DealerExists", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Dealer saved successfully..
+        /// </summary>
+        public static string DealerSaved {
+            get {
+                return ResourceManager.GetString("DealerSaved", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Dealer updated successfully..
+        /// </summary>
+        public static string DealerUpdated {
+            get {
+                return ResourceManager.GetString("DealerUpdated", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Image uploaded successfully..
         /// </summary>
         public static string ImageUploaded {
@@ -246,6 +282,15 @@ namespace Common.CommonUtility {
         public static string StoneShapeDeleted {
             get {
                 return ResourceManager.GetString("StoneShapeDeleted", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Stone Shape already exists..
+        /// </summary>
+        public static string StoneShapeExists {
+            get {
+                return ResourceManager.GetString("StoneShapeExists", resourceCulture);
             }
         }
         

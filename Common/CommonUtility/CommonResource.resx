@@ -141,6 +141,18 @@
   <data name="DataFetched" xml:space="preserve">
     <value>Data fetched successfully.</value>
   </data>
+  <data name="DealerDeleted" xml:space="preserve">
+    <value>Dealer deleted successfully.</value>
+  </data>
+  <data name="DealerExists" xml:space="preserve">
+    <value>Dealer already exists. Please try with other username.</value>
+  </data>
+  <data name="DealerSaved" xml:space="preserve">
+    <value>Dealer saved successfully.</value>
+  </data>
+  <data name="DealerUpdated" xml:space="preserve">
+    <value>Dealer updated successfully.</value>
+  </data>
   <data name="ImageUploaded" xml:space="preserve">
     <value>Image uploaded successfully.</value>
   </data>
@@ -179,6 +191,9 @@
   </data>
   <data name="StoneShapeDeleted" xml:space="preserve">
     <value>Stone Shape deleted successfully.</value>
+  </data>
+  <data name="StoneShapeExists" xml:space="preserve">
+    <value>Stone Shape already exists.</value>
   </data>
   <data name="StoneShapeSaved" xml:space="preserve">
     <value>Stone Shape created successfully.</value>

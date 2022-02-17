@@ -20,6 +20,11 @@ namespace DrishtiGems.API.Model
             CreateMap<StoneShapeDto, TblStoneShapeMaster>().ReverseMap();
 
             CreateMap<TblRolePageMaster, RolePages>().ReverseMap();
+
+            CreateMap<TblProduct, ProductDto>().ReverseMap();
+
+            CreateMap<DealerModel, DealerDto>().ReverseMap();
+            CreateMap<DealerDto, TblDealers>().ReverseMap();
         }
     }
 }

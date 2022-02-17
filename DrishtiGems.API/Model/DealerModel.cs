@@ -1,12 +1,12 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
-
-namespace Domain.Entities
+﻿namespace DrishtiGems.API.Model
 {
-    public class TblDealers : BaseEntity
+    public class DealerModel
     {
-        [ForeignKey("User")]
-        public int UserId { get; set; }
-        public virtual TblUser User { get; set; }
+        public int Id { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public string UserName { get; set; }
+        public string Password { get; set; }
         public string ShopName { get; set; }
         public string Discount { get; set; }
         public string GstNo { get; set; }
@@ -14,9 +14,8 @@ namespace Domain.Entities
         public DateTime DOB { get; set; }
         public string State { get; set; }
         public string Address { get; set; }
+        public IFormFile ImageFile { get; set; }
         public string ImageFileName { get; set; }
-        [ForeignKey("TblEmployeeMaster")]
         public int SalesmanId { get; set; }
-        public virtual TblEmployeeMaster TblEmployeeMaster { get; set; }
     }
 }

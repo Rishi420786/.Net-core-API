@@ -80,6 +80,8 @@ builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<ICommonService, CommonService>();
 builder.Services.AddScoped<IAdminService, AdminService>();
 builder.Services.AddScoped<IStoneShapeService, StoneShapeService>();
+builder.Services.AddScoped<IDealerService, DealerService>();
+builder.Services.AddScoped<IEmployeeService, EmployeeService>();
 
 var connectionString = configuration
             .GetConnectionString("DefaultConnection");

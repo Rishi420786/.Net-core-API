@@ -36,7 +36,7 @@ namespace DrishtiGems.API.Controllers
                 }
                 else
                 {
-                    return StatusCode(StatusCodes.Status500InternalServerError, CommonResource.Wrong);
+                    return StatusCode(StatusCodes.Status409Conflict, CommonResource.StoneShapeExists);
                 }
             }
             catch
@@ -76,17 +76,10 @@ namespace DrishtiGems.API.Controllers
         {
             try
             {
-                if (!await _stoneShapeService.IsStoneShapeExist(stoneShape.ShapeName))
+                bool result = await _stoneShapeService.UpdateStoneShape(stoneShape);
+                if (result)
                 {
-                    bool result = await _stoneShapeService.UpdateStoneShape(stoneShape);
-                    if (result)
-                    {
-                        return Ok(new OkResponse(CommonResource.StoneShapeUpdated));
-                    }
-                    else
-                    {
-                        return StatusCode(StatusCodes.Status500InternalServerError, CommonResource.Wrong);
-                    }
+                    return Ok(new OkResponse(CommonResource.StoneShapeUpdated));
                 }
                 else
                 {
