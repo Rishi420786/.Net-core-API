@@ -25,6 +25,9 @@ namespace DrishtiGems.API.Model
 
             CreateMap<DealerModel, DealerDto>().ReverseMap();
             CreateMap<DealerDto, TblDealers>().ReverseMap();
+
+            CreateMap<EmployeeModel, EmployeeDto>().ReverseMap();
+            CreateMap<EmployeeDto, TblEmployeeMaster>().ReverseMap();
         }
     }
 }
