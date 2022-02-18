@@ -28,6 +28,7 @@
   <ItemGroup>
     <Folder Include="wwwroot\CategoryImages\" />
     <Folder Include="wwwroot\DealerImages\" />
+    <Folder Include="wwwroot\EmployeeImages\" />
     <Folder Include="wwwroot\ProductVideos\" />
     <Folder Include="wwwroot\ProductImages\" />
   </ItemGroup>

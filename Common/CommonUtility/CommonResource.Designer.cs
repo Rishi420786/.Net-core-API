@@ -169,6 +169,42 @@ namespace Common.CommonUtility {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Employee deleted successfully..
+        /// </summary>
+        public static string EmployeeDeleted {
+            get {
+                return ResourceManager.GetString("EmployeeDeleted", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Employee already exists!.
+        /// </summary>
+        public static string EmployeeExists {
+            get {
+                return ResourceManager.GetString("EmployeeExists", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Employee saved successfully..
+        /// </summary>
+        public static string EmployeeSaved {
+            get {
+                return ResourceManager.GetString("EmployeeSaved", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Employee updated successfully..
+        /// </summary>
+        public static string EmployeeUpdated {
+            get {
+                return ResourceManager.GetString("EmployeeUpdated", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Image uploaded successfully..
         /// </summary>
         public static string ImageUploaded {

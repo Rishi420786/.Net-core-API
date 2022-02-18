@@ -153,6 +153,18 @@
   <data name="DealerUpdated" xml:space="preserve">
     <value>Dealer updated successfully.</value>
   </data>
+  <data name="EmployeeDeleted" xml:space="preserve">
+    <value>Employee deleted successfully.</value>
+  </data>
+  <data name="EmployeeExists" xml:space="preserve">
+    <value>Employee already exists!</value>
+  </data>
+  <data name="EmployeeSaved" xml:space="preserve">
+    <value>Employee saved successfully.</value>
+  </data>
+  <data name="EmployeeUpdated" xml:space="preserve">
+    <value>Employee updated successfully.</value>
+  </data>
   <data name="ImageUploaded" xml:space="preserve">
     <value>Image uploaded successfully.</value>
   </data>
