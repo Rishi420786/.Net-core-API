@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "+Xg0Wd/os9Z1ArDsGXzgRn1uagdKphqgpBpM7T6SVWg=",
+  "Hash": "/mCG0eCU+JMaBsUpGPrq3GOkwCSu3QbpOBZtHRMK2gU=",
   "Source": "DrishtiGems.API",
   "BasePath": "_content/DrishtiGems.API",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "DrishtiGems.API\\wwwroot",
       "Source": "DrishtiGems.API",
-      "ContentRoot": "D:\\DristiGit\\.Net-core-API\\DrishtiGems.API\\wwwroot\\",
+      "ContentRoot": "E:\\A_Sandeep_Project\\DristiGems_DotNetCoreProject\\DrishtiGems.API\\wwwroot\\",
       "BasePath": "_content/DrishtiGems.API",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\DristiGit\\.Net-core-API\\DrishtiGems.API\\wwwroot\\ProductImages\\47db5281-79ba-4b18-9809-73876ec3521e-life motto.jpg",
+      "Identity": "E:\\A_Sandeep_Project\\DristiGems_DotNetCoreProject\\DrishtiGems.API\\wwwroot\\ProductImages\\47db5281-79ba-4b18-9809-73876ec3521e-life motto.jpg",
       "SourceId": "DrishtiGems.API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DristiGit\\.Net-core-API\\DrishtiGems.API\\wwwroot\\",
+      "ContentRoot": "E:\\A_Sandeep_Project\\DristiGems_DotNetCoreProject\\DrishtiGems.API\\wwwroot\\",
       "BasePath": "_content/DrishtiGems.API",
       "RelativePath": "ProductImages/47db5281-79ba-4b18-9809-73876ec3521e-life motto.jpg",
       "AssetKind": "All",

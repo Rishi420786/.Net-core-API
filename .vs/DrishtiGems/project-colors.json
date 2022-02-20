@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "f1f44943-f54b-4daa-a871-fcb1656e172a": {
+      "ProjectGuid": "f1f44943-f54b-4daa-a871-fcb1656e172a",
+      "DisplayName": "ServiceLayer",
+      "ColorIndex": 0
+    },
+    "41216a7b-127a-4e4b-b6b9-478f991ff708": {
+      "ProjectGuid": "41216a7b-127a-4e4b-b6b9-478f991ff708",
+      "DisplayName": "DristiGems.WebApp",
+      "ColorIndex": 1
+    },
+    "e1009cfe-3ddd-4bd9-809c-2c0fc6030015": {
+      "ProjectGuid": "e1009cfe-3ddd-4bd9-809c-2c0fc6030015",
+      "DisplayName": "Domain",
+      "ColorIndex": 2
+    },
+    "a6d417dc-0142-489b-bb88-9f83f778ca6e": {
+      "ProjectGuid": "a6d417dc-0142-489b-bb88-9f83f778ca6e",
+      "DisplayName": "DrishtiGems.API",
+      "ColorIndex": 3
+    },
+    "3c1e91b0-2c38-458b-97b4-61ced96e518d": {
+      "ProjectGuid": "3c1e91b0-2c38-458b-97b4-61ced96e518d",
+      "DisplayName": "Common",
+      "ColorIndex": 4
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 5
+}

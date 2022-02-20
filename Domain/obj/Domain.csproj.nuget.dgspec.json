@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\DristiGit\\.Net-core-API\\Domain\\Domain.csproj": {}
+    "D:\\DristiGems_DotNetCoreProject\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "D:\\DristiGit\\.Net-core-API\\Domain\\Domain.csproj": {
+    "D:\\DristiGems_DotNetCoreProject\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DristiGit\\.Net-core-API\\Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\DristiGems_DotNetCoreProject\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\DristiGit\\.Net-core-API\\Domain\\Domain.csproj",
+        "projectPath": "D:\\DristiGems_DotNetCoreProject\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\rishi\\.nuget\\packages\\",
-        "outputPath": "D:\\DristiGit\\.Net-core-API\\Domain\\obj\\",
+        "outputPath": "D:\\DristiGems_DotNetCoreProject\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -47,17 +47,27 @@
               "target": "Package",
               "version": "[5.0.14, )"
             },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[6.0.1, )"
+              "version": "[6.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.2, )"
             },
             "Microsoft.EntityFrameworkCore.Relational": {
               "target": "Package",
-              "version": "[6.0.1, )"
+              "version": "[6.0.2, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[6.0.1, )"
+              "version": "[6.0.2, )"
             }
           },
           "imports": [

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\DristiGit\\.Net-core-API\\DrishtiGems.API\\DrishtiGems.API.csproj": {}
+    "D:\\DristiGems_DotNetCoreProject\\DrishtiGems.API\\DrishtiGems.API.csproj": {}
   },
   "projects": {
-    "D:\\DristiGit\\.Net-core-API\\Common\\Common.csproj": {
+    "D:\\DristiGems_DotNetCoreProject\\Common\\Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DristiGit\\.Net-core-API\\Common\\Common.csproj",
+        "projectUniqueName": "D:\\DristiGems_DotNetCoreProject\\Common\\Common.csproj",
         "projectName": "Common",
-        "projectPath": "D:\\DristiGit\\.Net-core-API\\Common\\Common.csproj",
+        "projectPath": "D:\\DristiGems_DotNetCoreProject\\Common\\Common.csproj",
         "packagesPath": "C:\\Users\\rishi\\.nuget\\packages\\",
-        "outputPath": "D:\\DristiGit\\.Net-core-API\\Common\\obj\\",
+        "outputPath": "D:\\DristiGems_DotNetCoreProject\\Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -31,8 +31,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\DristiGit\\.Net-core-API\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\DristiGit\\.Net-core-API\\Domain\\Domain.csproj"
+              "D:\\DristiGems_DotNetCoreProject\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\DristiGems_DotNetCoreProject\\Domain\\Domain.csproj"
               }
             }
           }
@@ -83,14 +83,14 @@
         }
       }
     },
-    "D:\\DristiGit\\.Net-core-API\\Domain\\Domain.csproj": {
+    "D:\\DristiGems_DotNetCoreProject\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DristiGit\\.Net-core-API\\Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\DristiGems_DotNetCoreProject\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\DristiGit\\.Net-core-API\\Domain\\Domain.csproj",
+        "projectPath": "D:\\DristiGems_DotNetCoreProject\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\rishi\\.nuget\\packages\\",
-        "outputPath": "D:\\DristiGit\\.Net-core-API\\Domain\\obj\\",
+        "outputPath": "D:\\DristiGems_DotNetCoreProject\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -126,17 +126,27 @@
               "target": "Package",
               "version": "[5.0.14, )"
             },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[6.0.1, )"
+              "version": "[6.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.2, )"
             },
             "Microsoft.EntityFrameworkCore.Relational": {
               "target": "Package",
-              "version": "[6.0.1, )"
+              "version": "[6.0.2, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[6.0.1, )"
+              "version": "[6.0.2, )"
             }
           },
           "imports": [
@@ -158,14 +168,14 @@
         }
       }
     },
-    "D:\\DristiGit\\.Net-core-API\\DrishtiGems.API\\DrishtiGems.API.csproj": {
+    "D:\\DristiGems_DotNetCoreProject\\DrishtiGems.API\\DrishtiGems.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DristiGit\\.Net-core-API\\DrishtiGems.API\\DrishtiGems.API.csproj",
+        "projectUniqueName": "D:\\DristiGems_DotNetCoreProject\\DrishtiGems.API\\DrishtiGems.API.csproj",
         "projectName": "DrishtiGems.API",
-        "projectPath": "D:\\DristiGit\\.Net-core-API\\DrishtiGems.API\\DrishtiGems.API.csproj",
+        "projectPath": "D:\\DristiGems_DotNetCoreProject\\DrishtiGems.API\\DrishtiGems.API.csproj",
         "packagesPath": "C:\\Users\\rishi\\.nuget\\packages\\",
-        "outputPath": "D:\\DristiGit\\.Net-core-API\\DrishtiGems.API\\obj\\",
+        "outputPath": "D:\\DristiGems_DotNetCoreProject\\DrishtiGems.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -185,14 +195,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\DristiGit\\.Net-core-API\\Common\\Common.csproj": {
-                "projectPath": "D:\\DristiGit\\.Net-core-API\\Common\\Common.csproj"
+              "D:\\DristiGems_DotNetCoreProject\\Common\\Common.csproj": {
+                "projectPath": "D:\\DristiGems_DotNetCoreProject\\Common\\Common.csproj"
               },
-              "D:\\DristiGit\\.Net-core-API\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\DristiGit\\.Net-core-API\\Domain\\Domain.csproj"
+              "D:\\DristiGems_DotNetCoreProject\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\DristiGems_DotNetCoreProject\\Domain\\Domain.csproj"
               },
-              "D:\\DristiGit\\.Net-core-API\\Services\\ServiceLayer.csproj": {
-                "projectPath": "D:\\DristiGit\\.Net-core-API\\Services\\ServiceLayer.csproj"
+              "D:\\DristiGems_DotNetCoreProject\\Services\\ServiceLayer.csproj": {
+                "projectPath": "D:\\DristiGems_DotNetCoreProject\\Services\\ServiceLayer.csproj"
               }
             }
           }
@@ -213,21 +223,21 @@
             },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
-              "version": "[6.0.1, )"
+              "version": "[6.0.2, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[6.0.1, )"
+              "version": "[6.0.2, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[6.0.1, )"
+              "version": "[6.0.2, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.1, )"
+              "version": "[6.0.2, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -260,14 +270,14 @@
         }
       }
     },
-    "D:\\DristiGit\\.Net-core-API\\Services\\ServiceLayer.csproj": {
+    "D:\\DristiGems_DotNetCoreProject\\Services\\ServiceLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DristiGit\\.Net-core-API\\Services\\ServiceLayer.csproj",
+        "projectUniqueName": "D:\\DristiGems_DotNetCoreProject\\Services\\ServiceLayer.csproj",
         "projectName": "ServiceLayer",
-        "projectPath": "D:\\DristiGit\\.Net-core-API\\Services\\ServiceLayer.csproj",
+        "projectPath": "D:\\DristiGems_DotNetCoreProject\\Services\\ServiceLayer.csproj",
         "packagesPath": "C:\\Users\\rishi\\.nuget\\packages\\",
-        "outputPath": "D:\\DristiGit\\.Net-core-API\\Services\\obj\\",
+        "outputPath": "D:\\DristiGems_DotNetCoreProject\\Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -287,11 +297,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\DristiGit\\.Net-core-API\\Common\\Common.csproj": {
-                "projectPath": "D:\\DristiGit\\.Net-core-API\\Common\\Common.csproj"
+              "D:\\DristiGems_DotNetCoreProject\\Common\\Common.csproj": {
+                "projectPath": "D:\\DristiGems_DotNetCoreProject\\Common\\Common.csproj"
               },
-              "D:\\DristiGit\\.Net-core-API\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\DristiGit\\.Net-core-API\\Domain\\Domain.csproj"
+              "D:\\DristiGems_DotNetCoreProject\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\DristiGems_DotNetCoreProject\\Domain\\Domain.csproj"
               }
             }
           }
