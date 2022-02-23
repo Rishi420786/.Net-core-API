@@ -66,3 +66,5 @@ D:\DristiGems_DotNetCoreProject\Services\obj\Debug\net6.0\ServiceLayer.csproj.Co
 D:\DristiGems_DotNetCoreProject\Services\obj\Debug\net6.0\ServiceLayer.dll
 D:\DristiGems_DotNetCoreProject\Services\obj\Debug\net6.0\ref\ServiceLayer.dll
 D:\DristiGems_DotNetCoreProject\Services\obj\Debug\net6.0\ServiceLayer.pdb
+D:\DristiGit\.Net-core-API\Services\bin\Debug\net6.0\RepositoryLayer.dll
+D:\DristiGit\.Net-core-API\Services\bin\Debug\net6.0\RepositoryLayer.pdb

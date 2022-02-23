@@ -27,7 +27,7 @@ namespace DrishtiGems.API.Controllers
         {
             try
             {
-                if (!await _dealerService.IsDealerExist(dealer.UserName))
+                if (!await _dealerService.IsRecordExist(dealer.UserName))
                 {
                     if (dealer.ImageFile != null)
                     {
@@ -41,7 +41,7 @@ namespace DrishtiGems.API.Controllers
                     }
                     DealerDto dealerDto = _mapper.Map<DealerDto>(dealer);
                     dealerDto.PasswordHash = EncryptionDecryption.Encrypt(dealer.Password, Constants.EncryDecryKey);
-                    bool result = await _dealerService.SaveDealer(dealerDto);
+                    bool result = await _dealerService.AddRecord(dealerDto);
                     if (result)
                     {
                         return Ok(new OkResponse(CommonResource.DealerSaved));
@@ -67,7 +67,7 @@ namespace DrishtiGems.API.Controllers
         {
             try
             {
-                return Ok(new OkResponse(CommonResource.Success, await _dealerService.GetAllDealers()));
+                return Ok(new OkResponse(CommonResource.Success, await _dealerService.GetAllRecords()));
             }
             catch
             {
@@ -80,7 +80,7 @@ namespace DrishtiGems.API.Controllers
         {
             try
             {
-                return Ok(new OkResponse(CommonResource.Success, await _dealerService.GetDealerById(id)));
+                return Ok(new OkResponse(CommonResource.Success, await _dealerService.GetRecordById(id)));
             }
             catch
             {
@@ -108,7 +108,7 @@ namespace DrishtiGems.API.Controllers
                     }
                 }
                 DealerDto dealerDto = _mapper.Map<DealerDto>(dealer);
-                bool result = await _dealerService.UpdateDealer(dealerDto);
+                bool result = await _dealerService.UpdateRecord(dealerDto);
                 if (result)
                 {
                     return Ok(new OkResponse(CommonResource.DealerUpdated));
@@ -129,7 +129,7 @@ namespace DrishtiGems.API.Controllers
         {
             try
             {
-                bool result = await _dealerService.DeleteDealer(id);
+                bool result = await _dealerService.DeleteRecord(id);
                 if (result)
                 {
                     return Ok(new OkResponse(CommonResource.DealerDeleted));

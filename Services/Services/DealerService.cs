@@ -3,6 +3,7 @@ using Common.CommonUtility;
 using Domain.DataContext;
 using Domain.Entities;
 using Microsoft.EntityFrameworkCore;
+using RepositoryLayer.IRepositoryService;
 using ServiceLayer.Dto;
 using ServiceLayer.IServices;
 
@@ -12,12 +13,14 @@ namespace ServiceLayer.Services
     {
         private readonly ApplicationDBContext _context;
         private readonly IMapper _mapper;
-        public DealerService(ApplicationDBContext context, IMapper mapper)
+        private readonly IDealerRepository _dealerRepository;
+        public DealerService(ApplicationDBContext context, IMapper mapper, IDealerRepository dealerRepository)
         {
             _context = context;
             _mapper = mapper;
+            _dealerRepository = dealerRepository;
         }
-        public async Task<bool> SaveDealer(DealerDto dealer)
+        public async Task<bool> AddRecord(DealerDto dealer)
         {
             try
             {
@@ -29,7 +32,8 @@ namespace ServiceLayer.Services
                     Username = dealer.UserName,
                     IsActive = true,
                     IsDeleted = false,
-                    CreatedDateTime = DateTime.Now
+                    CreatedDateTime = DateTime.Now,
+                    RoleId = 1
                 };
                 await _context.AddAsync(tblUser);
                 bool result = Convert.ToBoolean(await _context.SaveChangesAsync());
@@ -37,8 +41,7 @@ namespace ServiceLayer.Services
                 {
                     TblDealers tblDealers = _mapper.Map<TblDealers>(dealer);
                     tblDealers.UserId = tblUser.Id;
-                    await _context.AddAsync(tblDealers);
-                    result = Convert.ToBoolean(await _context.SaveChangesAsync());
+                    result = await _dealerRepository.Add(tblDealers);
                 }
                 return result;
             }
@@ -47,7 +50,7 @@ namespace ServiceLayer.Services
                 throw;
             }
         }
-        public async Task<IList<DealerListingDto>> GetAllDealers()
+        public async Task<IList<DealerListingDto>> GetAllRecords()
         {
             try
             {
@@ -71,7 +74,7 @@ namespace ServiceLayer.Services
                 throw;
             }
         }
-        public async Task<DealerDto> GetDealerById(int? id)
+        public async Task<DealerDto> GetRecordById(int? id)
         {
             try
             {
@@ -100,7 +103,7 @@ namespace ServiceLayer.Services
                 throw;
             }
         }
-        public async Task<bool> UpdateDealer(DealerDto dealerDto)
+        public async Task<bool> UpdateRecord(DealerDto dealerDto)
         {
             try
             {
@@ -133,8 +136,7 @@ namespace ServiceLayer.Services
                         tblDealers.SalesmanId = dealerDto.SalesmanId;
                         tblDealers.ShopName = dealerDto.ShopName;
                         tblDealers.State = dealerDto.State;
-                        _context.Entry(tblDealers).State = EntityState.Modified;
-                        result = Convert.ToBoolean(await _context.SaveChangesAsync());
+                        result = await _dealerRepository.Update(tblDealers);
                     }
                 }
                 return result;
@@ -144,7 +146,7 @@ namespace ServiceLayer.Services
                 throw;
             }
         }
-        public async Task<bool> DeleteDealer(int? dealerId)
+        public async Task<bool> DeleteRecord(int? dealerId)
         {
             try
             {
@@ -152,8 +154,7 @@ namespace ServiceLayer.Services
                 TblDealers? tblDealers = await _context.tblDealers.FindAsync(dealerId);
                 if (tblDealers != null)
                 {
-                    _context.tblDealers.Remove(tblDealers);
-                    result = Convert.ToBoolean(await _context.SaveChangesAsync());
+                    result = await _dealerRepository.Remove(tblDealers);
                     TblUser? tblUser = await _context.tblUsers.FindAsync(tblDealers.UserId);
                     if (tblUser != null)
                     {
@@ -168,7 +169,7 @@ namespace ServiceLayer.Services
                 throw;
             }
         }
-        public async Task<bool> IsDealerExist(string username)
+        public async Task<bool> IsRecordExist(string username)
         {
             try
             {

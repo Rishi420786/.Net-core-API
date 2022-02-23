@@ -3,6 +3,7 @@ using Common.CommonUtility;
 using Domain.DataContext;
 using Domain.Entities;
 using Microsoft.EntityFrameworkCore;
+using RepositoryLayer.IRepositoryService;
 using ServiceLayer.Dto;
 using ServiceLayer.IServices;
 
@@ -12,12 +13,14 @@ namespace ServiceLayer.Services
     {
         private readonly ApplicationDBContext _context;
         private readonly IMapper _mapper;
-        public EmployeeService(ApplicationDBContext context, IMapper mapper)
+        private readonly IGenericRepository<TblEmployeeMaster> _genericRepository;
+        public EmployeeService(ApplicationDBContext context, IMapper mapper, IGenericRepository<TblEmployeeMaster> genericRepository)
         {
             _context = context;
             _mapper = mapper;
+            _genericRepository = genericRepository;
         }
-        public async Task<bool> SaveEmployee(EmployeeDto employee)
+        public async Task<bool> AddRecord(EmployeeDto employee)
         {
             try
             {
@@ -29,6 +32,7 @@ namespace ServiceLayer.Services
                     Username = employee.UserName,
                     IsActive = true,
                     IsDeleted = false,
+                    RoleId = 1,
                     CreatedDateTime = DateTime.Now
                 };
                 await _context.AddAsync(tblUser);
@@ -37,8 +41,7 @@ namespace ServiceLayer.Services
                 {
                     TblEmployeeMaster tblEmployee = _mapper.Map<TblEmployeeMaster>(employee);
                     tblEmployee.UserId = tblUser.Id;
-                    await _context.AddAsync(tblEmployee);
-                    result = Convert.ToBoolean(await _context.SaveChangesAsync());
+                    result = await _genericRepository.Add(tblEmployee);
                 }
                 return result;
             }
@@ -47,7 +50,7 @@ namespace ServiceLayer.Services
                 throw;
             }
         }
-        public async Task<IList<EmployeeListingDto>> GetAllEmployees()
+        public async Task<IList<EmployeeListingDto>> GetAllRecords()
         {
             try
             {
@@ -71,7 +74,7 @@ namespace ServiceLayer.Services
                 throw;
             }
         }
-        public async Task<EmployeeDto> GetEmployeeById(int? id)
+        public async Task<EmployeeDto> GetRecordById(int? id)
         {
             try
             {
@@ -101,7 +104,7 @@ namespace ServiceLayer.Services
                 throw;
             }
         }
-        public async Task<bool> UpdateEmployee(EmployeeDto employeeDto)
+        public async Task<bool> UpdateRecord(EmployeeDto employeeDto)
         {
             try
             {
@@ -145,7 +148,7 @@ namespace ServiceLayer.Services
                 throw;
             }
         }
-        public async Task<bool> DeleteEmployee(int? empId)
+        public async Task<bool> DeleteRecord(int? empId)
         {
             try
             {
@@ -169,7 +172,7 @@ namespace ServiceLayer.Services
                 throw;
             }
         }
-        public async Task<bool> IsEmployeeExist(string username)
+        public async Task<bool> IsRecordExist(string username)
         {
             try
             {

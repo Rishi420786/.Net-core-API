@@ -20,7 +20,7 @@ namespace DrishtiGems.API.Controllers
         {
             try
             {
-                bool result = await _productService.CreateProduct(product);
+                bool result = await _productService.AddRecord(product);
                 if (result)
                 {
                     return Ok(new OkResponse(CommonResource.ProductSaved));
@@ -41,7 +41,7 @@ namespace DrishtiGems.API.Controllers
         {
             try
             {
-                return Ok(new OkResponse(CommonResource.Success, await _productService.GetProductList()));
+                return Ok(new OkResponse(CommonResource.Success, await _productService.GetAllRecords()));
             }
             catch
             {
@@ -54,7 +54,7 @@ namespace DrishtiGems.API.Controllers
         {
             try
             {
-                return Ok(new OkResponse(CommonResource.Success, await _productService.GetProductById(id)));
+                return Ok(new OkResponse(CommonResource.Success, await _productService.GetRecordById(id)));
             }
             catch
             {
@@ -67,7 +67,7 @@ namespace DrishtiGems.API.Controllers
         {
             try
             {
-                bool result = await _productService.UpdateProduct(product);
+                bool result = await _productService.UpdateRecord(product);
                 if (result)
                 {
                     return Ok(new OkResponse(CommonResource.ProductUpdated));
@@ -88,7 +88,7 @@ namespace DrishtiGems.API.Controllers
         {
             try
             {
-                bool result = await _productService.DeleteProduct(id);
+                bool result = await _productService.DeleteRecord(id);
                 if (result)
                 {
                     return Ok(new OkResponse(CommonResource.ProductDeleted));

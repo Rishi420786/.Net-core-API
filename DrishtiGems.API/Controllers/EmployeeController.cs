@@ -27,7 +27,7 @@ namespace DrishtiGems.API.Controllers
         {
             try
             {
-                if (!await _empService.IsEmployeeExist(employee.UserName))
+                if (!await _empService.IsRecordExist(employee.UserName))
                 {
                     if (employee.ImageFile != null)
                     {
@@ -41,7 +41,7 @@ namespace DrishtiGems.API.Controllers
                     }
                     EmployeeDto employeeDto = _mapper.Map<EmployeeDto>(employee);
                     employeeDto.PasswordHash = EncryptionDecryption.Encrypt(employee.Password, Constants.EncryDecryKey);
-                    bool result = await _empService.SaveEmployee(employeeDto);
+                    bool result = await _empService.AddRecord(employeeDto);
                     if (result)
                     {
                         return Ok(new OkResponse(CommonResource.EmployeeSaved));
@@ -67,7 +67,7 @@ namespace DrishtiGems.API.Controllers
         {
             try
             {
-                return Ok(new OkResponse(CommonResource.Success, await _empService.GetAllEmployees()));
+                return Ok(new OkResponse(CommonResource.Success, await _empService.GetAllRecords()));
             }
             catch
             {
@@ -80,7 +80,7 @@ namespace DrishtiGems.API.Controllers
         {
             try
             {
-                return Ok(new OkResponse(CommonResource.Success, await _empService.GetEmployeeById(id)));
+                return Ok(new OkResponse(CommonResource.Success, await _empService.GetRecordById(id)));
             }
             catch
             {
@@ -108,7 +108,7 @@ namespace DrishtiGems.API.Controllers
                     }
                 }
                 EmployeeDto employeeDto = _mapper.Map<EmployeeDto>(employee);
-                bool result = await _empService.UpdateEmployee(employeeDto);
+                bool result = await _empService.UpdateRecord(employeeDto);
                 if (result)
                 {
                     return Ok(new OkResponse(CommonResource.EmployeeUpdated));
@@ -129,7 +129,7 @@ namespace DrishtiGems.API.Controllers
         {
             try
             {
-                bool result = await _empService.DeleteEmployee(id);
+                bool result = await _empService.DeleteRecord(id);
                 if (result)
                 {
                     return Ok(new OkResponse(CommonResource.EmployeeDeleted));

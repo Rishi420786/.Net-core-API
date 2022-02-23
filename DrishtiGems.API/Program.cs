@@ -1,9 +1,12 @@
+using Common.CommonUtility;
 using Common.Helpers;
 using Domain.DataContext;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using RepositoryLayer.IRepositoryService;
+using RepositoryLayer.RepositoryService;
 using ServiceLayer.IServices;
 using ServiceLayer.Services;
 using System.Text;
@@ -82,9 +85,13 @@ builder.Services.AddScoped<IAdminService, AdminService>();
 builder.Services.AddScoped<IStoneShapeService, StoneShapeService>();
 builder.Services.AddScoped<IDealerService, DealerService>();
 builder.Services.AddScoped<IEmployeeService, EmployeeService>();
+builder.Services.AddTransient<IMailService, MailService>();
+builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
+builder.Services.AddScoped<IDealerRepository, DealerRepository>();
 
 var connectionString = configuration
             .GetConnectionString("DefaultConnection");
+builder.Services.Configure<MailSettings>(configuration.GetSection("MailSettings"));
 
 builder.Services.AddDbContext<ApplicationDBContext>(options => options.UseSqlServer(connectionString));
 var app = builder.Build();

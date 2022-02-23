@@ -4,11 +4,11 @@ namespace ServiceLayer.IServices
 {
     public interface IDealerService
     {
-        Task<bool> SaveDealer(DealerDto dealer);
-        Task<IList<DealerListingDto>> GetAllDealers();
-        Task<DealerDto> GetDealerById(int? id);
-        Task<bool> UpdateDealer(DealerDto dealerDto);
-        Task<bool> DeleteDealer(int? dealerId);
-        Task<bool> IsDealerExist(string username);
+        Task<bool> AddRecord(DealerDto dealer);
+        Task<IList<DealerListingDto>> GetAllRecords();
+        Task<DealerDto> GetRecordById(int? id);
+        Task<bool> UpdateRecord(DealerDto dealerDto);
+        Task<bool> DeleteRecord(int? dealerId);
+        Task<bool> IsRecordExist(string username);
     }
 }

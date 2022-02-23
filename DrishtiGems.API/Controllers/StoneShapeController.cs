@@ -22,9 +22,9 @@ namespace DrishtiGems.API.Controllers
         {
             try
             {
-                if (!await _stoneShapeService.IsStoneShapeExist(stoneShape.ShapeName))
+                if (!await _stoneShapeService.IsRecordExist(stoneShape.ShapeName))
                 {
-                    bool result = await _stoneShapeService.CreateStoneShape(stoneShape);
+                    bool result = await _stoneShapeService.AddRecord(stoneShape);
                     if (result)
                     {
                         return Ok(new OkResponse(CommonResource.StoneShapeSaved));
@@ -50,7 +50,7 @@ namespace DrishtiGems.API.Controllers
         {
             try
             {
-                return Ok(new OkResponse(CommonResource.Success, await _stoneShapeService.GetAllStoneShapes()));
+                return Ok(new OkResponse(CommonResource.Success, await _stoneShapeService.GetAllRecords()));
             }
             catch
             {
@@ -63,7 +63,7 @@ namespace DrishtiGems.API.Controllers
         {
             try
             {
-                return Ok(new OkResponse(CommonResource.Success, await _stoneShapeService.GetStoneShapeById(id)));
+                return Ok(new OkResponse(CommonResource.Success, await _stoneShapeService.GetRecordById(id)));
             }
             catch
             {
@@ -76,7 +76,7 @@ namespace DrishtiGems.API.Controllers
         {
             try
             {
-                bool result = await _stoneShapeService.UpdateStoneShape(stoneShape);
+                bool result = await _stoneShapeService.UpdateRecord(stoneShape);
                 if (result)
                 {
                     return Ok(new OkResponse(CommonResource.StoneShapeUpdated));
@@ -97,7 +97,7 @@ namespace DrishtiGems.API.Controllers
         {
             try
             {
-                bool result = await _stoneShapeService.DeleteStoneShape(id);
+                bool result = await _stoneShapeService.DeleteRecord(id);
                 if (result)
                 {
                     return Ok(new OkResponse(CommonResource.StoneShapeDeleted));

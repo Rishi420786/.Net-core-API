@@ -4,11 +4,11 @@ namespace ServiceLayer.IServices
 {
     public interface IEmployeeService
     {
-        Task<bool> SaveEmployee(EmployeeDto employee);
-        Task<IList<EmployeeListingDto>> GetAllEmployees();
-        Task<EmployeeDto> GetEmployeeById(int? id);
-        Task<bool> UpdateEmployee(EmployeeDto employee);
-        Task<bool> DeleteEmployee(int? empId);
-        Task<bool> IsEmployeeExist(string username);
+        Task<bool> AddRecord(EmployeeDto employee);
+        Task<IList<EmployeeListingDto>> GetAllRecords();
+        Task<EmployeeDto> GetRecordById(int? id);
+        Task<bool> UpdateRecord(EmployeeDto employee);
+        Task<bool> DeleteRecord(int? empId);
+        Task<bool> IsRecordExist(string username);
     }
 }

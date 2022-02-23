@@ -14,10 +14,12 @@ namespace DrishtiGems.API.Controllers
     {
         private readonly IHostingEnvironment _env;
         private readonly ICommonService _commonService;
-        public CommonController(IHostingEnvironment env, ICommonService commonService)
+        private readonly IMailService _mailService;
+        public CommonController(IHostingEnvironment env, ICommonService commonService, IMailService mailService)
         {
             _env = env;
             _commonService = commonService;
+            _mailService = mailService;
         }
         /// <summary>
         /// This method is use to upload images.
@@ -168,6 +170,20 @@ namespace DrishtiGems.API.Controllers
             try
             {
                 return Ok(new { message = CommonResource.DataFetched, StatusCode = StatusCodes.Status200OK, data = await _commonService.GetUserRating(userId) });
+            }
+            catch
+            {
+                return BadRequest();
+            }
+        }
+        [HttpPost]
+        [Route("SendEmail")]
+        public async Task<IActionResult> SendEmail([FromForm] MailRequest request)
+        {
+            try
+            {
+                await _mailService.SendEmailAsync(request);
+                return Ok(new OkResponse(CommonResource.EmailSent));
             }
             catch
             {

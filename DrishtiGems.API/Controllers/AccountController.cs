@@ -64,7 +64,7 @@ namespace DrishtiGems.API.Controllers
             {
                 UserDto userDto = _mapper.Map<UserDto>(userModel);
                 userDto.PasswordHash = EncryptionDecryption.Encrypt(userModel.Password, Constants.EncryDecryKey);
-                bool isUserSaved = await _userService.SaveUser(userDto);
+                bool isUserSaved = await _userService.AddRecord(userDto);
                 if (isUserSaved)
                 {
                     return Ok(CommonResource.UserSaved);
@@ -86,7 +86,7 @@ namespace DrishtiGems.API.Controllers
         {
             try
             {
-                var allUsers = await _userService.GetAllUsers();
+                var allUsers = await _userService.GetAllRecords();
                 return Ok(new { data = allUsers, message = CommonResource.UserFetched, StatusCode = StatusCodes.Status200OK });
             }
             catch

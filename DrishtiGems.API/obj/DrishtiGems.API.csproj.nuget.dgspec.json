@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\DristiGems_DotNetCoreProject\\DrishtiGems.API\\DrishtiGems.API.csproj": {}
+    "D:\\DristiGit\\.Net-core-API\\DrishtiGems.API\\DrishtiGems.API.csproj": {}
   },
   "projects": {
-    "D:\\DristiGems_DotNetCoreProject\\Common\\Common.csproj": {
+    "D:\\DristiGit\\.Net-core-API\\Common\\Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DristiGems_DotNetCoreProject\\Common\\Common.csproj",
+        "projectUniqueName": "D:\\DristiGit\\.Net-core-API\\Common\\Common.csproj",
         "projectName": "Common",
-        "projectPath": "D:\\DristiGems_DotNetCoreProject\\Common\\Common.csproj",
+        "projectPath": "D:\\DristiGit\\.Net-core-API\\Common\\Common.csproj",
         "packagesPath": "C:\\Users\\rishi\\.nuget\\packages\\",
-        "outputPath": "D:\\DristiGems_DotNetCoreProject\\Common\\obj\\",
+        "outputPath": "D:\\DristiGit\\.Net-core-API\\Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -31,8 +31,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\DristiGems_DotNetCoreProject\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\DristiGems_DotNetCoreProject\\Domain\\Domain.csproj"
+              "D:\\DristiGit\\.Net-core-API\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\DristiGit\\.Net-core-API\\Domain\\Domain.csproj"
               }
             }
           }
@@ -51,6 +51,10 @@
               "target": "Package",
               "version": "[11.0.0, )"
             },
+            "MailKit": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
             "Microsoft.AspNetCore.Mvc.Abstractions": {
               "target": "Package",
               "version": "[2.2.0, )"
@@ -58,6 +62,10 @@
             "Microsoft.AspNetCore.Mvc.Formatters.Json": {
               "target": "Package",
               "version": "[2.2.0, )"
+            },
+            "MimeKit": {
+              "target": "Package",
+              "version": "[3.1.1, )"
             },
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
@@ -83,14 +91,14 @@
         }
       }
     },
-    "D:\\DristiGems_DotNetCoreProject\\Domain\\Domain.csproj": {
+    "D:\\DristiGit\\.Net-core-API\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DristiGems_DotNetCoreProject\\Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\DristiGit\\.Net-core-API\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\DristiGems_DotNetCoreProject\\Domain\\Domain.csproj",
+        "projectPath": "D:\\DristiGit\\.Net-core-API\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\rishi\\.nuget\\packages\\",
-        "outputPath": "D:\\DristiGems_DotNetCoreProject\\Domain\\obj\\",
+        "outputPath": "D:\\DristiGit\\.Net-core-API\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -122,6 +130,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "MailKit": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
             "Microsoft.AspNetCore.Http.Features": {
               "target": "Package",
               "version": "[5.0.14, )"
@@ -147,6 +159,10 @@
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[6.0.2, )"
+            },
+            "MimeKit": {
+              "target": "Package",
+              "version": "[3.1.1, )"
             }
           },
           "imports": [
@@ -168,14 +184,14 @@
         }
       }
     },
-    "D:\\DristiGems_DotNetCoreProject\\DrishtiGems.API\\DrishtiGems.API.csproj": {
+    "D:\\DristiGit\\.Net-core-API\\DrishtiGems.API\\DrishtiGems.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DristiGems_DotNetCoreProject\\DrishtiGems.API\\DrishtiGems.API.csproj",
+        "projectUniqueName": "D:\\DristiGit\\.Net-core-API\\DrishtiGems.API\\DrishtiGems.API.csproj",
         "projectName": "DrishtiGems.API",
-        "projectPath": "D:\\DristiGems_DotNetCoreProject\\DrishtiGems.API\\DrishtiGems.API.csproj",
+        "projectPath": "D:\\DristiGit\\.Net-core-API\\DrishtiGems.API\\DrishtiGems.API.csproj",
         "packagesPath": "C:\\Users\\rishi\\.nuget\\packages\\",
-        "outputPath": "D:\\DristiGems_DotNetCoreProject\\DrishtiGems.API\\obj\\",
+        "outputPath": "D:\\DristiGit\\.Net-core-API\\DrishtiGems.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -195,14 +211,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\DristiGems_DotNetCoreProject\\Common\\Common.csproj": {
-                "projectPath": "D:\\DristiGems_DotNetCoreProject\\Common\\Common.csproj"
+              "D:\\DristiGit\\.Net-core-API\\Common\\Common.csproj": {
+                "projectPath": "D:\\DristiGit\\.Net-core-API\\Common\\Common.csproj"
               },
-              "D:\\DristiGems_DotNetCoreProject\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\DristiGems_DotNetCoreProject\\Domain\\Domain.csproj"
+              "D:\\DristiGit\\.Net-core-API\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\DristiGit\\.Net-core-API\\Domain\\Domain.csproj"
               },
-              "D:\\DristiGems_DotNetCoreProject\\Services\\ServiceLayer.csproj": {
-                "projectPath": "D:\\DristiGems_DotNetCoreProject\\Services\\ServiceLayer.csproj"
+              "D:\\DristiGit\\.Net-core-API\\Services\\ServiceLayer.csproj": {
+                "projectPath": "D:\\DristiGit\\.Net-core-API\\Services\\ServiceLayer.csproj"
               }
             }
           }
@@ -221,6 +237,10 @@
               "target": "Package",
               "version": "[11.0.0, )"
             },
+            "MailKit": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[6.0.2, )"
@@ -238,6 +258,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.2, )"
+            },
+            "MimeKit": {
+              "target": "Package",
+              "version": "[3.1.1, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -270,14 +294,14 @@
         }
       }
     },
-    "D:\\DristiGems_DotNetCoreProject\\Services\\ServiceLayer.csproj": {
+    "D:\\DristiGit\\.Net-core-API\\RepositoryLayer\\RepositoryLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DristiGems_DotNetCoreProject\\Services\\ServiceLayer.csproj",
-        "projectName": "ServiceLayer",
-        "projectPath": "D:\\DristiGems_DotNetCoreProject\\Services\\ServiceLayer.csproj",
+        "projectUniqueName": "D:\\DristiGit\\.Net-core-API\\RepositoryLayer\\RepositoryLayer.csproj",
+        "projectName": "RepositoryLayer",
+        "projectPath": "D:\\DristiGit\\.Net-core-API\\RepositoryLayer\\RepositoryLayer.csproj",
         "packagesPath": "C:\\Users\\rishi\\.nuget\\packages\\",
-        "outputPath": "D:\\DristiGems_DotNetCoreProject\\Services\\obj\\",
+        "outputPath": "D:\\DristiGit\\.Net-core-API\\RepositoryLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -297,11 +321,75 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\DristiGems_DotNetCoreProject\\Common\\Common.csproj": {
-                "projectPath": "D:\\DristiGems_DotNetCoreProject\\Common\\Common.csproj"
+              "D:\\DristiGit\\.Net-core-API\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\DristiGit\\.Net-core-API\\Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\DristiGit\\.Net-core-API\\Services\\ServiceLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\DristiGit\\.Net-core-API\\Services\\ServiceLayer.csproj",
+        "projectName": "ServiceLayer",
+        "projectPath": "D:\\DristiGit\\.Net-core-API\\Services\\ServiceLayer.csproj",
+        "packagesPath": "C:\\Users\\rishi\\.nuget\\packages\\",
+        "outputPath": "D:\\DristiGit\\.Net-core-API\\Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rishi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\DristiGit\\.Net-core-API\\Common\\Common.csproj": {
+                "projectPath": "D:\\DristiGit\\.Net-core-API\\Common\\Common.csproj"
               },
-              "D:\\DristiGems_DotNetCoreProject\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\DristiGems_DotNetCoreProject\\Domain\\Domain.csproj"
+              "D:\\DristiGit\\.Net-core-API\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\DristiGit\\.Net-core-API\\Domain\\Domain.csproj"
+              },
+              "D:\\DristiGit\\.Net-core-API\\RepositoryLayer\\RepositoryLayer.csproj": {
+                "projectPath": "D:\\DristiGit\\.Net-core-API\\RepositoryLayer\\RepositoryLayer.csproj"
               }
             }
           }
@@ -319,6 +407,14 @@
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[11.0.0, )"
+            },
+            "MailKit": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "MimeKit": {
+              "target": "Package",
+              "version": "[3.1.1, )"
             },
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",

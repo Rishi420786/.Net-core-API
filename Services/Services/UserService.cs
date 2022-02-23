@@ -48,7 +48,7 @@ namespace ServiceLayer.Services
                 return new AuthenticateResponse(user, token);
             }
         }
-        public async Task<bool> SaveUser(UserDto user)
+        public async Task<bool> AddRecord(UserDto user)
         {
             if (user != null)
             {
@@ -65,7 +65,7 @@ namespace ServiceLayer.Services
                 return false;
             }
         }
-        public async Task<IList<UserDto>> GetAllUsers()
+        public async Task<IList<UserDto>> GetAllRecords()
         {
             return _mapper.Map<IList<UserDto>>(await _dBContext.tblUsers.ToListAsync());
         }

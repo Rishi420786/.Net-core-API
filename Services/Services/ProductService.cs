@@ -16,7 +16,7 @@ namespace ServiceLayer.Services
             _context = context;
             _mapper = mapper;
         }
-        public async Task<bool> CreateProduct(ProductDto product)
+        public async Task<bool> AddRecord(ProductDto product)
         {
             try
             {
@@ -30,7 +30,7 @@ namespace ServiceLayer.Services
                 throw;
             }
         }
-        public async Task<IList<ProductListDto>> GetProductList()
+        public async Task<IList<ProductListDto>> GetAllRecords()
         {
             try
             {
@@ -78,7 +78,7 @@ namespace ServiceLayer.Services
                 throw;
             }
         }
-        public async Task<ProductListDto> GetProductById(int? id)
+        public async Task<ProductListDto> GetRecordById(int? id)
         {
             try
             {
@@ -127,7 +127,7 @@ namespace ServiceLayer.Services
                 throw;
             }
         }
-        public async Task<bool> UpdateProduct(ProductDto productDto)
+        public async Task<bool> UpdateRecord(ProductDto productDto)
         {
             try
             {
@@ -141,7 +141,7 @@ namespace ServiceLayer.Services
                 throw;
             }
         }
-        public async Task<bool> DeleteProduct(int? id)
+        public async Task<bool> DeleteRecord(int? id)
         {
             try
             {

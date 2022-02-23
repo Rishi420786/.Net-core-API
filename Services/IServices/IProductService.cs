@@ -4,10 +4,10 @@ namespace ServiceLayer.IServices
 {
     public interface IProductService
     {
-        Task<bool> CreateProduct(ProductDto product);
-        Task<IList<ProductListDto>> GetProductList();
-        Task<ProductListDto> GetProductById(int? Id);
-        Task<bool> UpdateProduct(ProductDto product);
-        Task<bool> DeleteProduct(int? Id);
+        Task<bool> AddRecord(ProductDto product);
+        Task<IList<ProductListDto>> GetAllRecords();
+        Task<ProductListDto> GetRecordById(int? Id);
+        Task<bool> UpdateRecord(ProductDto product);
+        Task<bool> DeleteRecord(int? Id);
     }
 }

@@ -1,0 +1,657 @@
+﻿++Solution 'DrishtiGems' ‎(5 of 5 projects)
+i:{00000000-0000-0000-0000-000000000000}:DrishtiGems.sln
+++Script Documents
+++index.html
+++swagger-ui-bundle.js
+++swagger-ui-standalone-preset.js
+++aspnetcore-browser-refresh.js
+++browserLink
+++DrishtiGems.API
+i:{00000000-0000-0000-0000-000000000000}:DrishtiGems.API
+++Connected Services 
+i:{a6d417dc-0142-489b-bb88-9f83f778ca6e}:>1689
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:>1687
+++Dependencies
+i:{a6d417dc-0142-489b-bb88-9f83f778ca6e}:>1686
+i:{f1f44943-f54b-4daa-a871-fcb1656e172a}:>575
+i:{e1009cfe-3ddd-4bd9-809c-2c0fc6030015}:>574
+i:{3c1e91b0-2c38-458b-97b4-61ced96e518d}:>573
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:>1685
+++Properties
+i:{a6d417dc-0142-489b-bb88-9f83f778ca6e}:d:\dristigit\.net-core-api\drishtigems.api\properties\
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\properties\
+++wwwroot
+i:{a6d417dc-0142-489b-bb88-9f83f778ca6e}:d:\dristigit\.net-core-api\drishtigems.api\wwwroot\
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\wwwroot\
+++CategoryImages
+i:{a6d417dc-0142-489b-bb88-9f83f778ca6e}:d:\dristigit\.net-core-api\drishtigems.api\wwwroot\categoryimages\
+++DealerImages
+i:{a6d417dc-0142-489b-bb88-9f83f778ca6e}:d:\dristigit\.net-core-api\drishtigems.api\wwwroot\dealerimages\
+++EmployeeImages
+i:{a6d417dc-0142-489b-bb88-9f83f778ca6e}:d:\dristigit\.net-core-api\drishtigems.api\wwwroot\employeeimages\
+++ProductImages
+i:{a6d417dc-0142-489b-bb88-9f83f778ca6e}:d:\dristigit\.net-core-api\drishtigems.api\wwwroot\productimages\
+++ProductVideos
+i:{a6d417dc-0142-489b-bb88-9f83f778ca6e}:d:\dristigit\.net-core-api\drishtigems.api\wwwroot\productvideos\
+++Controllers
+i:{a6d417dc-0142-489b-bb88-9f83f778ca6e}:d:\dristigit\.net-core-api\drishtigems.api\controllers\
+++AccountController.cs
+i:{a6d417dc-0142-489b-bb88-9f83f778ca6e}:d:\dristigit\.net-core-api\drishtigems.api\controllers\accountcontroller.cs
+++AdminController.cs
+i:{a6d417dc-0142-489b-bb88-9f83f778ca6e}:d:\dristigit\.net-core-api\drishtigems.api\controllers\admincontroller.cs
+++CommonController.cs
+i:{a6d417dc-0142-489b-bb88-9f83f778ca6e}:d:\dristigit\.net-core-api\drishtigems.api\controllers\commoncontroller.cs
+++DealerController.cs
+i:{a6d417dc-0142-489b-bb88-9f83f778ca6e}:d:\dristigit\.net-core-api\drishtigems.api\controllers\dealercontroller.cs
+++EmployeeController.cs
+i:{a6d417dc-0142-489b-bb88-9f83f778ca6e}:d:\dristigit\.net-core-api\drishtigems.api\controllers\employeecontroller.cs
+++ProductController.cs
+i:{a6d417dc-0142-489b-bb88-9f83f778ca6e}:d:\dristigit\.net-core-api\drishtigems.api\controllers\productcontroller.cs
+++StoneShapeController.cs
+i:{a6d417dc-0142-489b-bb88-9f83f778ca6e}:d:\dristigit\.net-core-api\drishtigems.api\controllers\stoneshapecontroller.cs
+++Model
+i:{a6d417dc-0142-489b-bb88-9f83f778ca6e}:d:\dristigit\.net-core-api\drishtigems.api\model\
+++AutoMapperProfile.cs
+i:{a6d417dc-0142-489b-bb88-9f83f778ca6e}:d:\dristigit\.net-core-api\drishtigems.api\model\automapperprofile.cs
+++DealerListingModel.cs
+i:{a6d417dc-0142-489b-bb88-9f83f778ca6e}:d:\dristigit\.net-core-api\drishtigems.api\model\dealerlistingmodel.cs
+++DealerModel.cs
+i:{a6d417dc-0142-489b-bb88-9f83f778ca6e}:d:\dristigit\.net-core-api\drishtigems.api\model\dealermodel.cs
+++EmployeeModel.cs
+i:{a6d417dc-0142-489b-bb88-9f83f778ca6e}:d:\dristigit\.net-core-api\drishtigems.api\model\employeemodel.cs
+++UserModel.cs
+i:{a6d417dc-0142-489b-bb88-9f83f778ca6e}:d:\dristigit\.net-core-api\drishtigems.api\model\usermodel.cs
+++appsettings.json
+i:{a6d417dc-0142-489b-bb88-9f83f778ca6e}:d:\dristigit\.net-core-api\drishtigems.api\appsettings.json
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\appsettings.json
+++Program.cs
+i:{a6d417dc-0142-489b-bb88-9f83f778ca6e}:d:\dristigit\.net-core-api\drishtigems.api\program.cs
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\program.cs
+++WeatherForecast.cs
+i:{a6d417dc-0142-489b-bb88-9f83f778ca6e}:d:\dristigit\.net-core-api\drishtigems.api\weatherforecast.cs
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\data\weatherforecast.cs
+++No service dependencies discovered
+i:{a6d417dc-0142-489b-bb88-9f83f778ca6e}:>1690
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:>1688
+++Analyzers
+i:{a6d417dc-0142-489b-bb88-9f83f778ca6e}:analyzers
+i:{f1f44943-f54b-4daa-a871-fcb1656e172a}:analyzers
+i:{e1009cfe-3ddd-4bd9-809c-2c0fc6030015}:analyzers
+i:{3c1e91b0-2c38-458b-97b4-61ced96e518d}:analyzers
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:analyzers
+++Frameworks
+i:{a6d417dc-0142-489b-bb88-9f83f778ca6e}:frameworks
+i:{f1f44943-f54b-4daa-a871-fcb1656e172a}:frameworks
+i:{e1009cfe-3ddd-4bd9-809c-2c0fc6030015}:frameworks
+i:{3c1e91b0-2c38-458b-97b4-61ced96e518d}:frameworks
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:frameworks
+++Packages
+i:{a6d417dc-0142-489b-bb88-9f83f778ca6e}:packages
+i:{f1f44943-f54b-4daa-a871-fcb1656e172a}:packages
+i:{e1009cfe-3ddd-4bd9-809c-2c0fc6030015}:packages
+i:{3c1e91b0-2c38-458b-97b4-61ced96e518d}:packages
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:packages
+++Projects
+i:{a6d417dc-0142-489b-bb88-9f83f778ca6e}:projects
+i:{f1f44943-f54b-4daa-a871-fcb1656e172a}:projects
+i:{3c1e91b0-2c38-458b-97b4-61ced96e518d}:projects
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:projects
+++launchSettings.json
+i:{a6d417dc-0142-489b-bb88-9f83f778ca6e}:d:\dristigit\.net-core-api\drishtigems.api\properties\launchsettings.json
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\properties\launchsettings.json
+++47db5281-79ba-4b18-9809-73876ec3521e-life motto.jpg
+i:{a6d417dc-0142-489b-bb88-9f83f778ca6e}:d:\dristigit\.net-core-api\drishtigems.api\wwwroot\productimages\47db5281-79ba-4b18-9809-73876ec3521e-life motto.jpg
+++appsettings.Development.json
+i:{a6d417dc-0142-489b-bb88-9f83f778ca6e}:d:\dristigit\.net-core-api\drishtigems.api\appsettings.development.json
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\appsettings.development.json
+++Microsoft.AspNetCore.Analyzers
+i:{a6d417dc-0142-489b-bb88-9f83f778ca6e}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.App.Analyzers
+i:{a6d417dc-0142-489b-bb88-9f83f778ca6e}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+++Microsoft.AspNetCore.App.CodeFixes
+i:{a6d417dc-0142-489b-bb88-9f83f778ca6e}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{a6d417dc-0142-489b-bb88-9f83f778ca6e}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{a6d417dc-0142-489b-bb88-9f83f778ca6e}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.AspNetCore.Razor.Internal.SourceGenerator.Transport
+i:{a6d417dc-0142-489b-bb88-9f83f778ca6e}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.internal.sourcegenerator.transport.dll
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.internal.sourcegenerator.transport.dll
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{a6d417dc-0142-489b-bb88-9f83f778ca6e}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{f1f44943-f54b-4daa-a871-fcb1656e172a}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{e1009cfe-3ddd-4bd9-809c-2c0fc6030015}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{3c1e91b0-2c38-458b-97b4-61ced96e518d}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{a6d417dc-0142-489b-bb88-9f83f778ca6e}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{f1f44943-f54b-4daa-a871-fcb1656e172a}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{e1009cfe-3ddd-4bd9-809c-2c0fc6030015}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{3c1e91b0-2c38-458b-97b4-61ced96e518d}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++Microsoft.EntityFrameworkCore.Analyzers
+i:{a6d417dc-0142-489b-bb88-9f83f778ca6e}:c:\users\rishi\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.2\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{f1f44943-f54b-4daa-a871-fcb1656e172a}:c:\users\rishi\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.2\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{e1009cfe-3ddd-4bd9-809c-2c0fc6030015}:c:\users\rishi\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.2\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{3c1e91b0-2c38-458b-97b4-61ced96e518d}:c:\users\rishi\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.2\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:c:\users\rishi\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.2\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+++Microsoft.Extensions.Logging.Generators
+i:{a6d417dc-0142-489b-bb88-9f83f778ca6e}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{f1f44943-f54b-4daa-a871-fcb1656e172a}:c:\users\rishi\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{e1009cfe-3ddd-4bd9-809c-2c0fc6030015}:c:\users\rishi\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{3c1e91b0-2c38-458b-97b4-61ced96e518d}:c:\users\rishi\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+++Microsoft.NET.Sdk.Razor.SourceGenerators
+i:{a6d417dc-0142-489b-bb88-9f83f778ca6e}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+++System.Text.Json.SourceGeneration
+i:{a6d417dc-0142-489b-bb88-9f83f778ca6e}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.0\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{f1f44943-f54b-4daa-a871-fcb1656e172a}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.0\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{e1009cfe-3ddd-4bd9-809c-2c0fc6030015}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.0\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{3c1e91b0-2c38-458b-97b4-61ced96e518d}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.0\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.0\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+++Microsoft.AspNetCore.App
+i:{a6d417dc-0142-489b-bb88-9f83f778ca6e}:d:\dristigit\.net-core-api\drishtigems.api\microsoft.aspnetcore.app
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\microsoft.aspnetcore.app
+++Microsoft.NETCore.App
+i:{a6d417dc-0142-489b-bb88-9f83f778ca6e}:d:\dristigit\.net-core-api\drishtigems.api\microsoft.netcore.app
+i:{f1f44943-f54b-4daa-a871-fcb1656e172a}:d:\dristigit\.net-core-api\services\microsoft.netcore.app
+i:{e1009cfe-3ddd-4bd9-809c-2c0fc6030015}:d:\dristigit\.net-core-api\domain\microsoft.netcore.app
+i:{3c1e91b0-2c38-458b-97b4-61ced96e518d}:d:\dristigit\.net-core-api\common\microsoft.netcore.app
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\microsoft.netcore.app
+++AutoMapper.Extensions.Microsoft.DependencyInjection (11.0.0)
+i:{a6d417dc-0142-489b-bb88-9f83f778ca6e}:>1734
+i:{f1f44943-f54b-4daa-a871-fcb1656e172a}:>1762
+i:{3c1e91b0-2c38-458b-97b4-61ced96e518d}:>1722
+++MailKit (3.1.1)
+i:{a6d417dc-0142-489b-bb88-9f83f778ca6e}:>1828
+i:{f1f44943-f54b-4daa-a871-fcb1656e172a}:>1826
+i:{e1009cfe-3ddd-4bd9-809c-2c0fc6030015}:>1824
+i:{3c1e91b0-2c38-458b-97b4-61ced96e518d}:>1825
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:>1827
+++Microsoft.AspNetCore.Authentication.JwtBearer (6.0.2)
+i:{a6d417dc-0142-489b-bb88-9f83f778ca6e}:>1743
+++Microsoft.EntityFrameworkCore (6.0.2)
+i:{a6d417dc-0142-489b-bb88-9f83f778ca6e}:>1726
+i:{e1009cfe-3ddd-4bd9-809c-2c0fc6030015}:>1730
+++Microsoft.EntityFrameworkCore.SqlServer (6.0.2)
+i:{a6d417dc-0142-489b-bb88-9f83f778ca6e}:>1731
+i:{e1009cfe-3ddd-4bd9-809c-2c0fc6030015}:>1733
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:>1723
+++Microsoft.EntityFrameworkCore.Tools (6.0.2)
+i:{a6d417dc-0142-489b-bb88-9f83f778ca6e}:>1745
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:>1735
+++MimeKit (3.1.1)
+i:{a6d417dc-0142-489b-bb88-9f83f778ca6e}:>1833
+i:{f1f44943-f54b-4daa-a871-fcb1656e172a}:>1831
+i:{e1009cfe-3ddd-4bd9-809c-2c0fc6030015}:>1829
+i:{3c1e91b0-2c38-458b-97b4-61ced96e518d}:>1830
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:>1832
+++Swashbuckle.AspNetCore (6.2.3)
+i:{a6d417dc-0142-489b-bb88-9f83f778ca6e}:>1737
+++System.Configuration.ConfigurationManager (6.0.0)
+i:{a6d417dc-0142-489b-bb88-9f83f778ca6e}:>1740
+++Common
+i:{a6d417dc-0142-489b-bb88-9f83f778ca6e}:d:\dristigit\.net-core-api\common\common.csproj
+i:{f1f44943-f54b-4daa-a871-fcb1656e172a}:d:\dristigit\.net-core-api\common\common.csproj
+i:{00000000-0000-0000-0000-000000000000}:Common
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\common\common.csproj
+++Domain
+i:{a6d417dc-0142-489b-bb88-9f83f778ca6e}:d:\dristigit\.net-core-api\domain\domain.csproj
+i:{f1f44943-f54b-4daa-a871-fcb1656e172a}:d:\dristigit\.net-core-api\domain\domain.csproj
+i:{00000000-0000-0000-0000-000000000000}:Domain
+i:{3c1e91b0-2c38-458b-97b4-61ced96e518d}:d:\dristigit\.net-core-api\domain\domain.csproj
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\domain\domain.csproj
+++ServiceLayer
+i:{a6d417dc-0142-489b-bb88-9f83f778ca6e}:d:\dristigit\.net-core-api\services\servicelayer.csproj
+i:{00000000-0000-0000-0000-000000000000}:ServiceLayer
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\services\servicelayer.csproj
+++Dto
+i:{f1f44943-f54b-4daa-a871-fcb1656e172a}:d:\dristigit\.net-core-api\services\dto\
+++AddCategoryColorDto.cs
+i:{f1f44943-f54b-4daa-a871-fcb1656e172a}:d:\dristigit\.net-core-api\services\dto\addcategorycolordto.cs
+++AppSettings.cs
+i:{f1f44943-f54b-4daa-a871-fcb1656e172a}:d:\dristigit\.net-core-api\services\dto\appsettings.cs
+++AuthenticateRequest.cs
+i:{f1f44943-f54b-4daa-a871-fcb1656e172a}:d:\dristigit\.net-core-api\services\dto\authenticaterequest.cs
+++AuthenticateResponse.cs
+i:{f1f44943-f54b-4daa-a871-fcb1656e172a}:d:\dristigit\.net-core-api\services\dto\authenticateresponse.cs
+++CategoryColorDto.cs
+i:{f1f44943-f54b-4daa-a871-fcb1656e172a}:d:\dristigit\.net-core-api\services\dto\categorycolordto.cs
+++CategoryDto.cs
+i:{f1f44943-f54b-4daa-a871-fcb1656e172a}:d:\dristigit\.net-core-api\services\dto\categorydto.cs
+++DealerDto.cs
+i:{f1f44943-f54b-4daa-a871-fcb1656e172a}:d:\dristigit\.net-core-api\services\dto\dealerdto.cs
+++DealerListingDto.cs
+i:{f1f44943-f54b-4daa-a871-fcb1656e172a}:d:\dristigit\.net-core-api\services\dto\dealerlistingdto.cs
+++EmployeeDto.cs
+i:{f1f44943-f54b-4daa-a871-fcb1656e172a}:d:\dristigit\.net-core-api\services\dto\employeedto.cs
+++EmployeeListingDto.cs
+i:{f1f44943-f54b-4daa-a871-fcb1656e172a}:d:\dristigit\.net-core-api\services\dto\employeelistingdto.cs
+++GetCategoryDto.cs
+i:{f1f44943-f54b-4daa-a871-fcb1656e172a}:d:\dristigit\.net-core-api\services\dto\getcategorydto.cs
+++GetUserRatingDto.cs
+i:{f1f44943-f54b-4daa-a871-fcb1656e172a}:d:\dristigit\.net-core-api\services\dto\getuserratingdto.cs
+++ProductDto.cs
+i:{f1f44943-f54b-4daa-a871-fcb1656e172a}:d:\dristigit\.net-core-api\services\dto\productdto.cs
+++ProductListDto.cs
+i:{f1f44943-f54b-4daa-a871-fcb1656e172a}:d:\dristigit\.net-core-api\services\dto\productlistdto.cs
+++RatingDto.cs
+i:{f1f44943-f54b-4daa-a871-fcb1656e172a}:d:\dristigit\.net-core-api\services\dto\ratingdto.cs
+++RolesDto.cs
+i:{f1f44943-f54b-4daa-a871-fcb1656e172a}:d:\dristigit\.net-core-api\services\dto\rolesdto.cs
+++StoneShapeDto.cs
+i:{f1f44943-f54b-4daa-a871-fcb1656e172a}:d:\dristigit\.net-core-api\services\dto\stoneshapedto.cs
+++UserDto.cs
+i:{f1f44943-f54b-4daa-a871-fcb1656e172a}:d:\dristigit\.net-core-api\services\dto\userdto.cs
+++UserRatingDto.cs
+i:{f1f44943-f54b-4daa-a871-fcb1656e172a}:d:\dristigit\.net-core-api\services\dto\userratingdto.cs
+++IServices
+i:{f1f44943-f54b-4daa-a871-fcb1656e172a}:d:\dristigit\.net-core-api\services\iservices\
+++IAdminService.cs
+i:{f1f44943-f54b-4daa-a871-fcb1656e172a}:d:\dristigit\.net-core-api\services\iservices\iadminservice.cs
+++ICommonService.cs
+i:{f1f44943-f54b-4daa-a871-fcb1656e172a}:d:\dristigit\.net-core-api\services\iservices\icommonservice.cs
+++IDealerService.cs
+i:{f1f44943-f54b-4daa-a871-fcb1656e172a}:d:\dristigit\.net-core-api\services\iservices\idealerservice.cs
+++IEmployeeService.cs
+i:{f1f44943-f54b-4daa-a871-fcb1656e172a}:d:\dristigit\.net-core-api\services\iservices\iemployeeservice.cs
+++IMailService.cs
+i:{f1f44943-f54b-4daa-a871-fcb1656e172a}:d:\dristigit\.net-core-api\services\iservices\imailservice.cs
+++IProductService.cs
+i:{f1f44943-f54b-4daa-a871-fcb1656e172a}:d:\dristigit\.net-core-api\services\iservices\iproductservice.cs
+++IStoneShapeService.cs
+i:{f1f44943-f54b-4daa-a871-fcb1656e172a}:d:\dristigit\.net-core-api\services\iservices\istoneshapeservice.cs
+++IUserService.cs
+i:{f1f44943-f54b-4daa-a871-fcb1656e172a}:d:\dristigit\.net-core-api\services\iservices\iuserservice.cs
+++Services
+i:{f1f44943-f54b-4daa-a871-fcb1656e172a}:d:\dristigit\.net-core-api\services\services\
+++AdminService.cs
+i:{f1f44943-f54b-4daa-a871-fcb1656e172a}:d:\dristigit\.net-core-api\services\services\adminservice.cs
+++CommonService.cs
+i:{f1f44943-f54b-4daa-a871-fcb1656e172a}:d:\dristigit\.net-core-api\services\services\commonservice.cs
+++DealerService.cs
+i:{f1f44943-f54b-4daa-a871-fcb1656e172a}:d:\dristigit\.net-core-api\services\services\dealerservice.cs
+++EmployeeService.cs
+i:{f1f44943-f54b-4daa-a871-fcb1656e172a}:d:\dristigit\.net-core-api\services\services\employeeservice.cs
+++MailService.cs
+i:{f1f44943-f54b-4daa-a871-fcb1656e172a}:d:\dristigit\.net-core-api\services\services\mailservice.cs
+++ProductService.cs
+i:{f1f44943-f54b-4daa-a871-fcb1656e172a}:d:\dristigit\.net-core-api\services\services\productservice.cs
+++StoneShapeService.cs
+i:{f1f44943-f54b-4daa-a871-fcb1656e172a}:d:\dristigit\.net-core-api\services\services\stoneshapeservice.cs
+++UserService.cs
+i:{f1f44943-f54b-4daa-a871-fcb1656e172a}:d:\dristigit\.net-core-api\services\services\userservice.cs
+++System.IdentityModel.Tokens.Jwt (6.15.1)
+i:{f1f44943-f54b-4daa-a871-fcb1656e172a}:>1763
+i:{3c1e91b0-2c38-458b-97b4-61ced96e518d}:>1728
+++DataContext
+i:{e1009cfe-3ddd-4bd9-809c-2c0fc6030015}:d:\dristigit\.net-core-api\domain\datacontext\
+++Entities
+i:{e1009cfe-3ddd-4bd9-809c-2c0fc6030015}:d:\dristigit\.net-core-api\domain\entities\
+++BaseEntity.cs
+i:{e1009cfe-3ddd-4bd9-809c-2c0fc6030015}:d:\dristigit\.net-core-api\domain\entities\baseentity.cs
+++TblCategory.cs
+i:{e1009cfe-3ddd-4bd9-809c-2c0fc6030015}:d:\dristigit\.net-core-api\domain\entities\tblcategory.cs
+++TblCategoryStoneColor.cs
+i:{e1009cfe-3ddd-4bd9-809c-2c0fc6030015}:d:\dristigit\.net-core-api\domain\entities\tblcategorystonecolor.cs
+++TblDealers.cs
+i:{e1009cfe-3ddd-4bd9-809c-2c0fc6030015}:d:\dristigit\.net-core-api\domain\entities\tbldealers.cs
+++TblEmployeeMaster.cs
+i:{e1009cfe-3ddd-4bd9-809c-2c0fc6030015}:d:\dristigit\.net-core-api\domain\entities\tblemployeemaster.cs
+++TblGstMaster.cs
+i:{e1009cfe-3ddd-4bd9-809c-2c0fc6030015}:d:\dristigit\.net-core-api\domain\entities\tblgstmaster.cs
+++TblProduct.cs
+i:{e1009cfe-3ddd-4bd9-809c-2c0fc6030015}:d:\dristigit\.net-core-api\domain\entities\tblproduct.cs
+++TblQualityMaster.cs
+i:{e1009cfe-3ddd-4bd9-809c-2c0fc6030015}:d:\dristigit\.net-core-api\domain\entities\tblqualitymaster.cs
+++TblRating.cs
+i:{e1009cfe-3ddd-4bd9-809c-2c0fc6030015}:d:\dristigit\.net-core-api\domain\entities\tblrating.cs
+++TblRole.cs
+i:{e1009cfe-3ddd-4bd9-809c-2c0fc6030015}:d:\dristigit\.net-core-api\domain\entities\tblrole.cs
+++TblRolePageMaster.cs
+i:{e1009cfe-3ddd-4bd9-809c-2c0fc6030015}:d:\dristigit\.net-core-api\domain\entities\tblrolepagemaster.cs
+++TblRolePermissions.cs
+i:{e1009cfe-3ddd-4bd9-809c-2c0fc6030015}:d:\dristigit\.net-core-api\domain\entities\tblrolepermissions.cs
+++TblStoneCutMaster.cs
+i:{e1009cfe-3ddd-4bd9-809c-2c0fc6030015}:d:\dristigit\.net-core-api\domain\entities\tblstonecutmaster.cs
+++TblStoneMaster.cs
+i:{e1009cfe-3ddd-4bd9-809c-2c0fc6030015}:d:\dristigit\.net-core-api\domain\entities\tblstonemaster.cs
+++TblStoneShapeMaster.cs
+i:{e1009cfe-3ddd-4bd9-809c-2c0fc6030015}:d:\dristigit\.net-core-api\domain\entities\tblstoneshapemaster.cs
+++TblUser.cs
+i:{e1009cfe-3ddd-4bd9-809c-2c0fc6030015}:d:\dristigit\.net-core-api\domain\entities\tbluser.cs
+++TblUserRating.cs
+i:{e1009cfe-3ddd-4bd9-809c-2c0fc6030015}:d:\dristigit\.net-core-api\domain\entities\tbluserrating.cs
+++Migrations
+i:{e1009cfe-3ddd-4bd9-809c-2c0fc6030015}:d:\dristigit\.net-core-api\domain\migrations\
+++ApplicationDBContext.cs
+i:{e1009cfe-3ddd-4bd9-809c-2c0fc6030015}:d:\dristigit\.net-core-api\domain\datacontext\applicationdbcontext.cs
+++20220206162426_added TblUser and TblRole.cs
+i:{e1009cfe-3ddd-4bd9-809c-2c0fc6030015}:d:\dristigit\.net-core-api\domain\migrations\20220206162426_added tbluser and tblrole.cs
+++20220206173810_changed column datatype.cs
+i:{e1009cfe-3ddd-4bd9-809c-2c0fc6030015}:d:\dristigit\.net-core-api\domain\migrations\20220206173810_changed column datatype.cs
+++20220208051526_added tblRating and tblUserRating.cs
+i:{e1009cfe-3ddd-4bd9-809c-2c0fc6030015}:d:\dristigit\.net-core-api\domain\migrations\20220208051526_added tblrating and tbluserrating.cs
+++20220208053746_modified and added column in tbluserrating.cs
+i:{e1009cfe-3ddd-4bd9-809c-2c0fc6030015}:d:\dristigit\.net-core-api\domain\migrations\20220208053746_modified and added column in tbluserrating.cs
+++20220208055557_remove column in tbluserratin.cs
+i:{e1009cfe-3ddd-4bd9-809c-2c0fc6030015}:d:\dristigit\.net-core-api\domain\migrations\20220208055557_remove column in tbluserratin.cs
+++20220209053548_added roles and stones tables.cs
+i:{e1009cfe-3ddd-4bd9-809c-2c0fc6030015}:d:\dristigit\.net-core-api\domain\migrations\20220209053548_added roles and stones tables.cs
+++20220210173836_added category and quality table.cs
+i:{e1009cfe-3ddd-4bd9-809c-2c0fc6030015}:d:\dristigit\.net-core-api\domain\migrations\20220210173836_added category and quality table.cs
+++20220212085429_added Product Table.cs
+i:{e1009cfe-3ddd-4bd9-809c-2c0fc6030015}:d:\dristigit\.net-core-api\domain\migrations\20220212085429_added product table.cs
+++20220212085605_added categoryId col in tblproduct.cs
+i:{e1009cfe-3ddd-4bd9-809c-2c0fc6030015}:d:\dristigit\.net-core-api\domain\migrations\20220212085605_added categoryid col in tblproduct.cs
+++20220216052524_added employee and dealer table.cs
+i:{e1009cfe-3ddd-4bd9-809c-2c0fc6030015}:d:\dristigit\.net-core-api\domain\migrations\20220216052524_added employee and dealer table.cs
+++20220218125717_AddIdentityTables.cs
+i:{e1009cfe-3ddd-4bd9-809c-2c0fc6030015}:d:\dristigit\.net-core-api\domain\migrations\20220218125717_addidentitytables.cs
+++ApplicationDBContextModelSnapshot.cs
+i:{e1009cfe-3ddd-4bd9-809c-2c0fc6030015}:d:\dristigit\.net-core-api\domain\migrations\applicationdbcontextmodelsnapshot.cs
+++Microsoft.AspNetCore.Http.Features (5.0.14)
+i:{e1009cfe-3ddd-4bd9-809c-2c0fc6030015}:>1725
+++Microsoft.AspNetCore.Identity.EntityFrameworkCore (6.0.2)
+i:{e1009cfe-3ddd-4bd9-809c-2c0fc6030015}:>1742
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:>1732
+++Microsoft.EntityFrameworkCore.Design (6.0.2)
+i:{e1009cfe-3ddd-4bd9-809c-2c0fc6030015}:>1739
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:>1727
+++Microsoft.EntityFrameworkCore.Relational (6.0.2)
+i:{e1009cfe-3ddd-4bd9-809c-2c0fc6030015}:>1744
+++20220206162426_added TblUser and TblRole.Designer.cs
+i:{e1009cfe-3ddd-4bd9-809c-2c0fc6030015}:d:\dristigit\.net-core-api\domain\migrations\20220206162426_added tbluser and tblrole.designer.cs
+++20220206173810_changed column datatype.Designer.cs
+i:{e1009cfe-3ddd-4bd9-809c-2c0fc6030015}:d:\dristigit\.net-core-api\domain\migrations\20220206173810_changed column datatype.designer.cs
+++20220208051526_added tblRating and tblUserRating.Designer.cs
+i:{e1009cfe-3ddd-4bd9-809c-2c0fc6030015}:d:\dristigit\.net-core-api\domain\migrations\20220208051526_added tblrating and tbluserrating.designer.cs
+++20220208053746_modified and added column in tbluserrating.Designer.cs
+i:{e1009cfe-3ddd-4bd9-809c-2c0fc6030015}:d:\dristigit\.net-core-api\domain\migrations\20220208053746_modified and added column in tbluserrating.designer.cs
+++20220208055557_remove column in tbluserratin.Designer.cs
+i:{e1009cfe-3ddd-4bd9-809c-2c0fc6030015}:d:\dristigit\.net-core-api\domain\migrations\20220208055557_remove column in tbluserratin.designer.cs
+++20220209053548_added roles and stones tables.Designer.cs
+i:{e1009cfe-3ddd-4bd9-809c-2c0fc6030015}:d:\dristigit\.net-core-api\domain\migrations\20220209053548_added roles and stones tables.designer.cs
+++20220210173836_added category and quality table.Designer.cs
+i:{e1009cfe-3ddd-4bd9-809c-2c0fc6030015}:d:\dristigit\.net-core-api\domain\migrations\20220210173836_added category and quality table.designer.cs
+++20220212085429_added Product Table.Designer.cs
+i:{e1009cfe-3ddd-4bd9-809c-2c0fc6030015}:d:\dristigit\.net-core-api\domain\migrations\20220212085429_added product table.designer.cs
+++20220212085605_added categoryId col in tblproduct.Designer.cs
+i:{e1009cfe-3ddd-4bd9-809c-2c0fc6030015}:d:\dristigit\.net-core-api\domain\migrations\20220212085605_added categoryid col in tblproduct.designer.cs
+++20220216052524_added employee and dealer table.Designer.cs
+i:{e1009cfe-3ddd-4bd9-809c-2c0fc6030015}:d:\dristigit\.net-core-api\domain\migrations\20220216052524_added employee and dealer table.designer.cs
+++20220218125717_AddIdentityTables.Designer.cs
+i:{e1009cfe-3ddd-4bd9-809c-2c0fc6030015}:d:\dristigit\.net-core-api\domain\migrations\20220218125717_addidentitytables.designer.cs
+++CommonUtility
+i:{3c1e91b0-2c38-458b-97b4-61ced96e518d}:d:\dristigit\.net-core-api\common\commonutility\
+++ApiResponse.cs
+i:{3c1e91b0-2c38-458b-97b4-61ced96e518d}:d:\dristigit\.net-core-api\common\commonutility\apiresponse.cs
+++BadRequestResponse.cs
+i:{3c1e91b0-2c38-458b-97b4-61ced96e518d}:d:\dristigit\.net-core-api\common\commonutility\badrequestresponse.cs
+++CommonResource.resx
+i:{3c1e91b0-2c38-458b-97b4-61ced96e518d}:d:\dristigit\.net-core-api\common\commonutility\commonresource.resx
+++Constants.cs
+i:{3c1e91b0-2c38-458b-97b4-61ced96e518d}:d:\dristigit\.net-core-api\common\commonutility\constants.cs
+++EncryptionDecryption.cs
+i:{3c1e91b0-2c38-458b-97b4-61ced96e518d}:d:\dristigit\.net-core-api\common\commonutility\encryptiondecryption.cs
+++MailRequest.cs
+i:{3c1e91b0-2c38-458b-97b4-61ced96e518d}:d:\dristigit\.net-core-api\common\commonutility\mailrequest.cs
+++MailSettings.cs
+i:{3c1e91b0-2c38-458b-97b4-61ced96e518d}:d:\dristigit\.net-core-api\common\commonutility\mailsettings.cs
+++OkResponse.cs
+i:{3c1e91b0-2c38-458b-97b4-61ced96e518d}:d:\dristigit\.net-core-api\common\commonutility\okresponse.cs
+++SD.cs
+i:{3c1e91b0-2c38-458b-97b4-61ced96e518d}:d:\dristigit\.net-core-api\common\sd.cs
+++CommonResource.Designer.cs
+i:{3c1e91b0-2c38-458b-97b4-61ced96e518d}:d:\dristigit\.net-core-api\common\commonutility\commonresource.designer.cs
+++Microsoft.AspNetCore.Mvc.Abstractions (2.2.0)
+i:{3c1e91b0-2c38-458b-97b4-61ced96e518d}:>1729
+++Microsoft.AspNetCore.Mvc.Formatters.Json (2.2.0)
+i:{3c1e91b0-2c38-458b-97b4-61ced96e518d}:>1736
+++DristiGems.WebApp
+i:{00000000-0000-0000-0000-000000000000}:DristiGems.WebApp
+++css
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\wwwroot\css\
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\wwwroot\css\open-iconic\font\css\
+++bootstrap
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\wwwroot\css\bootstrap\
+++open-iconic
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\wwwroot\css\open-iconic\
+++site.css
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\wwwroot\css\site.css
+++favicon.ico
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\wwwroot\favicon.ico
+++Areas
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\areas\
+++Data
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\data\
+++Pages
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\pages\
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\areas\identity\pages\
+++Shared
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\pages\shared\
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\shared\
+++_Host.cshtml
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\pages\_host.cshtml
+++_Layout.cshtml
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\pages\_layout.cshtml
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\pages\shared\_layout.cshtml
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\areas\identity\pages\account\manage\_layout.cshtml
+++_ViewImports.cshtml
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\pages\_viewimports.cshtml
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\areas\identity\pages\_viewimports.cshtml
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\areas\identity\pages\account\_viewimports.cshtml
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\areas\identity\pages\account\manage\_viewimports.cshtml
+++_ViewStart.cshtml
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\pages\_viewstart.cshtml
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\areas\identity\pages\_viewstart.cshtml
+++Counter.razor
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\pages\counter.razor
+++Error.cshtml
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\pages\error.cshtml
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\areas\identity\pages\error.cshtml
+++FetchData.razor
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\pages\fetchdata.razor
+++Index.razor
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\pages\index.razor
+++_Imports.razor
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\_imports.razor
+++App.razor
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\app.razor
+++ScaffoldingReadMe.txt
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\scaffoldingreadme.txt
+++bootstrap.min.css
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\wwwroot\css\bootstrap\bootstrap.min.css
+++font
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\wwwroot\css\open-iconic\font\
+++FONT-LICENSE
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\wwwroot\css\open-iconic\font-license
+++ICON-LICENSE
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\wwwroot\css\open-iconic\icon-license
+++README.md
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\wwwroot\css\open-iconic\readme.md
+++Identity
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\areas\identity\
+++WeatherForecastService.cs
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\data\weatherforecastservice.cs
+++_LoginPartial.cshtml
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\pages\shared\_loginpartial.cshtml
+++_ValidationScriptsPartial.cshtml
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\pages\shared\_validationscriptspartial.cshtml
+++Error.cshtml.cs
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\pages\error.cshtml.cs
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\areas\identity\pages\error.cshtml.cs
+++MainLayout.razor
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\shared\mainlayout.razor
+++NavMenu.razor
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\shared\navmenu.razor
+++SurveyPrompt.razor
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\shared\surveyprompt.razor
+++MessagePackAnalyzer
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:c:\users\rishi\.nuget\packages\messagepackanalyzer\2.1.152\analyzers\dotnet\messagepackanalyzer.dll
+++Microsoft.CodeAnalysis.Analyzers
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:c:\users\rishi\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.2\analyzers\dotnet\cs\microsoft.codeanalysis.analyzers.dll
+++Microsoft.CodeAnalysis.CSharp.Analyzers
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:c:\users\rishi\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.2\analyzers\dotnet\cs\microsoft.codeanalysis.csharp.analyzers.dll
+++Microsoft.AspNetCore.Identity.UI (6.0.2)
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:>1741
+++Microsoft.VisualStudio.Web.CodeGeneration.Design (6.0.2)
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:>1738
+++bootstrap.min.css.map
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\wwwroot\css\bootstrap\bootstrap.min.css.map
+++fonts
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\wwwroot\css\open-iconic\font\fonts\
+++MainLayout.razor.css
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\shared\mainlayout.razor.css
+++NavMenu.razor.css
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\shared\navmenu.razor.css
+++open-iconic-bootstrap.min.css
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\wwwroot\css\open-iconic\font\css\open-iconic-bootstrap.min.css
+++open-iconic.eot
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\wwwroot\css\open-iconic\font\fonts\open-iconic.eot
+++open-iconic.otf
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\wwwroot\css\open-iconic\font\fonts\open-iconic.otf
+++open-iconic.svg
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\wwwroot\css\open-iconic\font\fonts\open-iconic.svg
+++open-iconic.ttf
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\wwwroot\css\open-iconic\font\fonts\open-iconic.ttf
+++open-iconic.woff
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\wwwroot\css\open-iconic\font\fonts\open-iconic.woff
+++Account
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\areas\identity\pages\account\
+++Manage
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\areas\identity\pages\account\manage\
+++_StatusMessage.cshtml
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\areas\identity\pages\account\_statusmessage.cshtml
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\areas\identity\pages\account\manage\_statusmessage.cshtml
+++AccessDenied.cshtml
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\areas\identity\pages\account\accessdenied.cshtml
+++ConfirmEmail.cshtml
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\areas\identity\pages\account\confirmemail.cshtml
+++ConfirmEmailChange.cshtml
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\areas\identity\pages\account\confirmemailchange.cshtml
+++ExternalLogin.cshtml
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\areas\identity\pages\account\externallogin.cshtml
+++ForgotPassword.cshtml
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\areas\identity\pages\account\forgotpassword.cshtml
+++ForgotPasswordConfirmation.cshtml
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\areas\identity\pages\account\forgotpasswordconfirmation.cshtml
+++Lockout.cshtml
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\areas\identity\pages\account\lockout.cshtml
+++Login.cshtml
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\areas\identity\pages\account\login.cshtml
+++LoginWith2fa.cshtml
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\areas\identity\pages\account\loginwith2fa.cshtml
+++LoginWithRecoveryCode.cshtml
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\areas\identity\pages\account\loginwithrecoverycode.cshtml
+++Logout.cshtml
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\areas\identity\pages\account\logout.cshtml
+++Register.cshtml
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\areas\identity\pages\account\register.cshtml
+++RegisterConfirmation.cshtml
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\areas\identity\pages\account\registerconfirmation.cshtml
+++ResendEmailConfirmation.cshtml
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\areas\identity\pages\account\resendemailconfirmation.cshtml
+++ResetPassword.cshtml
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\areas\identity\pages\account\resetpassword.cshtml
+++ResetPasswordConfirmation.cshtml
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\areas\identity\pages\account\resetpasswordconfirmation.cshtml
+++_ManageNav.cshtml
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\areas\identity\pages\account\manage\_managenav.cshtml
+++ChangePassword.cshtml
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\areas\identity\pages\account\manage\changepassword.cshtml
+++DeletePersonalData.cshtml
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\areas\identity\pages\account\manage\deletepersonaldata.cshtml
+++Disable2fa.cshtml
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\areas\identity\pages\account\manage\disable2fa.cshtml
+++DownloadPersonalData.cshtml
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\areas\identity\pages\account\manage\downloadpersonaldata.cshtml
+++Email.cshtml
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\areas\identity\pages\account\manage\email.cshtml
+++EnableAuthenticator.cshtml
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\areas\identity\pages\account\manage\enableauthenticator.cshtml
+++ExternalLogins.cshtml
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\areas\identity\pages\account\manage\externallogins.cshtml
+++GenerateRecoveryCodes.cshtml
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\areas\identity\pages\account\manage\generaterecoverycodes.cshtml
+++Index.cshtml
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\areas\identity\pages\account\manage\index.cshtml
+++ManageNavPages.cs
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\areas\identity\pages\account\manage\managenavpages.cs
+++PersonalData.cshtml
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\areas\identity\pages\account\manage\personaldata.cshtml
+++ResetAuthenticator.cshtml
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\areas\identity\pages\account\manage\resetauthenticator.cshtml
+++SetPassword.cshtml
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\areas\identity\pages\account\manage\setpassword.cshtml
+++ShowRecoveryCodes.cshtml
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\areas\identity\pages\account\manage\showrecoverycodes.cshtml
+++TwoFactorAuthentication.cshtml
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\areas\identity\pages\account\manage\twofactorauthentication.cshtml
+++AccessDenied.cshtml.cs
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\areas\identity\pages\account\accessdenied.cshtml.cs
+++ConfirmEmail.cshtml.cs
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\areas\identity\pages\account\confirmemail.cshtml.cs
+++ConfirmEmailChange.cshtml.cs
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\areas\identity\pages\account\confirmemailchange.cshtml.cs
+++ExternalLogin.cshtml.cs
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\areas\identity\pages\account\externallogin.cshtml.cs
+++ForgotPassword.cshtml.cs
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\areas\identity\pages\account\forgotpassword.cshtml.cs
+++ForgotPasswordConfirmation.cshtml.cs
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\areas\identity\pages\account\forgotpasswordconfirmation.cshtml.cs
+++Lockout.cshtml.cs
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\areas\identity\pages\account\lockout.cshtml.cs
+++Login.cshtml.cs
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\areas\identity\pages\account\login.cshtml.cs
+++LoginWith2fa.cshtml.cs
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\areas\identity\pages\account\loginwith2fa.cshtml.cs
+++LoginWithRecoveryCode.cshtml.cs
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\areas\identity\pages\account\loginwithrecoverycode.cshtml.cs
+++Logout.cshtml.cs
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\areas\identity\pages\account\logout.cshtml.cs
+++Register.cshtml.cs
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\areas\identity\pages\account\register.cshtml.cs
+++RegisterConfirmation.cshtml.cs
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\areas\identity\pages\account\registerconfirmation.cshtml.cs
+++ResendEmailConfirmation.cshtml.cs
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\areas\identity\pages\account\resendemailconfirmation.cshtml.cs
+++ResetPassword.cshtml.cs
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\areas\identity\pages\account\resetpassword.cshtml.cs
+++ResetPasswordConfirmation.cshtml.cs
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\areas\identity\pages\account\resetpasswordconfirmation.cshtml.cs
+++ChangePassword.cshtml.cs
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\areas\identity\pages\account\manage\changepassword.cshtml.cs
+++DeletePersonalData.cshtml.cs
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\areas\identity\pages\account\manage\deletepersonaldata.cshtml.cs
+++Disable2fa.cshtml.cs
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\areas\identity\pages\account\manage\disable2fa.cshtml.cs
+++DownloadPersonalData.cshtml.cs
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\areas\identity\pages\account\manage\downloadpersonaldata.cshtml.cs
+++Email.cshtml.cs
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\areas\identity\pages\account\manage\email.cshtml.cs
+++EnableAuthenticator.cshtml.cs
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\areas\identity\pages\account\manage\enableauthenticator.cshtml.cs
+++ExternalLogins.cshtml.cs
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\areas\identity\pages\account\manage\externallogins.cshtml.cs
+++GenerateRecoveryCodes.cshtml.cs
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\areas\identity\pages\account\manage\generaterecoverycodes.cshtml.cs
+++Index.cshtml.cs
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\areas\identity\pages\account\manage\index.cshtml.cs
+++PersonalData.cshtml.cs
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\areas\identity\pages\account\manage\personaldata.cshtml.cs
+++ResetAuthenticator.cshtml.cs
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\areas\identity\pages\account\manage\resetauthenticator.cshtml.cs
+++SetPassword.cshtml.cs
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\areas\identity\pages\account\manage\setpassword.cshtml.cs
+++ShowRecoveryCodes.cshtml.cs
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\areas\identity\pages\account\manage\showrecoverycodes.cshtml.cs
+++TwoFactorAuthentication.cshtml.cs
+i:{41216a7b-127a-4e4b-b6b9-478f991ff708}:d:\dristigit\.net-core-api\dristigems.webapp\areas\identity\pages\account\manage\twofactorauthentication.cshtml.cs
+++VM5

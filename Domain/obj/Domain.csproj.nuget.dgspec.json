@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\DristiGems_DotNetCoreProject\\Domain\\Domain.csproj": {}
+    "D:\\DristiGit\\.Net-core-API\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "D:\\DristiGems_DotNetCoreProject\\Domain\\Domain.csproj": {
+    "D:\\DristiGit\\.Net-core-API\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DristiGems_DotNetCoreProject\\Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\DristiGit\\.Net-core-API\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\DristiGems_DotNetCoreProject\\Domain\\Domain.csproj",
+        "projectPath": "D:\\DristiGit\\.Net-core-API\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\rishi\\.nuget\\packages\\",
-        "outputPath": "D:\\DristiGems_DotNetCoreProject\\Domain\\obj\\",
+        "outputPath": "D:\\DristiGit\\.Net-core-API\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -43,6 +43,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "MailKit": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
             "Microsoft.AspNetCore.Http.Features": {
               "target": "Package",
               "version": "[5.0.14, )"
@@ -68,6 +72,10 @@
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[6.0.2, )"
+            },
+            "MimeKit": {
+              "target": "Package",
+              "version": "[3.1.1, )"
             }
           },
           "imports": [

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "XyCLT56YHtdamqgFqE1TDgaF9dm3Eyv08QNpQ8DX8eI=",
+  "Hash": "uMuxAXU4r4C/oKhdHrVwvkGZ5Iw9vxK17QEi95yxIWg=",
   "Source": "DristiGems.WebApp",
   "BasePath": "_content/DristiGems.WebApp",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "DristiGems.WebApp\\wwwroot",
       "Source": "DristiGems.WebApp",
-      "ContentRoot": "D:\\DristiGems_DotNetCoreProject\\DristiGems.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\DristiGit\\.Net-core-API\\DristiGems.WebApp\\wwwroot\\",
       "BasePath": "_content/DristiGems.WebApp",
       "Pattern": "**"
     }
@@ -1037,10 +1037,10 @@
       "OriginalItemSpec": "C:\\Users\\rishi\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.2\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "D:\\DristiGems_DotNetCoreProject\\DristiGems.WebApp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\DristiGems.WebApp.styles.css",
+      "Identity": "D:\\DristiGit\\.Net-core-API\\DristiGems.WebApp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\DristiGems.WebApp.styles.css",
       "SourceId": "DristiGems.WebApp",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\DristiGems_DotNetCoreProject\\DristiGems.WebApp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "D:\\DristiGit\\.Net-core-API\\DristiGems.WebApp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/DristiGems.WebApp",
       "RelativePath": "DristiGems.WebApp.styles.css",
       "AssetKind": "All",
@@ -1051,13 +1051,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\DristiGems_DotNetCoreProject\\DristiGems.WebApp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\DristiGems.WebApp.styles.css"
+      "OriginalItemSpec": "D:\\DristiGit\\.Net-core-API\\DristiGems.WebApp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\DristiGems.WebApp.styles.css"
     },
     {
-      "Identity": "D:\\DristiGems_DotNetCoreProject\\DristiGems.WebApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\DristiGems.WebApp.bundle.scp.css",
+      "Identity": "D:\\DristiGit\\.Net-core-API\\DristiGems.WebApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\DristiGems.WebApp.bundle.scp.css",
       "SourceId": "DristiGems.WebApp",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\DristiGems_DotNetCoreProject\\DristiGems.WebApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "D:\\DristiGit\\.Net-core-API\\DristiGems.WebApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/DristiGems.WebApp",
       "RelativePath": "DristiGems.WebApp.bundle.scp.css",
       "AssetKind": "All",
@@ -1068,13 +1068,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\DristiGems_DotNetCoreProject\\DristiGems.WebApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\DristiGems.WebApp.bundle.scp.css"
+      "OriginalItemSpec": "D:\\DristiGit\\.Net-core-API\\DristiGems.WebApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\DristiGems.WebApp.bundle.scp.css"
     },
     {
-      "Identity": "D:\\DristiGems_DotNetCoreProject\\DristiGems.WebApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Identity": "D:\\DristiGit\\.Net-core-API\\DristiGems.WebApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "DristiGems.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DristiGems_DotNetCoreProject\\DristiGems.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\DristiGit\\.Net-core-API\\DristiGems.WebApp\\wwwroot\\",
       "BasePath": "_content/DristiGems.WebApp",
       "RelativePath": "css/bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "D:\\DristiGems_DotNetCoreProject\\DristiGems.WebApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "D:\\DristiGit\\.Net-core-API\\DristiGems.WebApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "DristiGems.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DristiGems_DotNetCoreProject\\DristiGems.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\DristiGit\\.Net-core-API\\DristiGems.WebApp\\wwwroot\\",
       "BasePath": "_content/DristiGems.WebApp",
       "RelativePath": "css/bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -1105,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "D:\\DristiGems_DotNetCoreProject\\DristiGems.WebApp\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Identity": "D:\\DristiGit\\.Net-core-API\\DristiGems.WebApp\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "DristiGems.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DristiGems_DotNetCoreProject\\DristiGems.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\DristiGit\\.Net-core-API\\DristiGems.WebApp\\wwwroot\\",
       "BasePath": "_content/DristiGems.WebApp",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "AssetKind": "All",
@@ -1122,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "D:\\DristiGems_DotNetCoreProject\\DristiGems.WebApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Identity": "D:\\DristiGit\\.Net-core-API\\DristiGems.WebApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "SourceId": "DristiGems.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DristiGems_DotNetCoreProject\\DristiGems.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\DristiGit\\.Net-core-API\\DristiGems.WebApp\\wwwroot\\",
       "BasePath": "_content/DristiGems.WebApp",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.eot",
       "AssetKind": "All",
@@ -1139,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Identity": "D:\\DristiGems_DotNetCoreProject\\DristiGems.WebApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Identity": "D:\\DristiGit\\.Net-core-API\\DristiGems.WebApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "SourceId": "DristiGems.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DristiGems_DotNetCoreProject\\DristiGems.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\DristiGit\\.Net-core-API\\DristiGems.WebApp\\wwwroot\\",
       "BasePath": "_content/DristiGems.WebApp",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.otf",
       "AssetKind": "All",
@@ -1156,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Identity": "D:\\DristiGems_DotNetCoreProject\\DristiGems.WebApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Identity": "D:\\DristiGit\\.Net-core-API\\DristiGems.WebApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "SourceId": "DristiGems.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DristiGems_DotNetCoreProject\\DristiGems.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\DristiGit\\.Net-core-API\\DristiGems.WebApp\\wwwroot\\",
       "BasePath": "_content/DristiGems.WebApp",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.svg",
       "AssetKind": "All",
@@ -1173,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Identity": "D:\\DristiGems_DotNetCoreProject\\DristiGems.WebApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Identity": "D:\\DristiGit\\.Net-core-API\\DristiGems.WebApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "SourceId": "DristiGems.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DristiGems_DotNetCoreProject\\DristiGems.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\DristiGit\\.Net-core-API\\DristiGems.WebApp\\wwwroot\\",
       "BasePath": "_content/DristiGems.WebApp",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.ttf",
       "AssetKind": "All",
@@ -1190,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Identity": "D:\\DristiGems_DotNetCoreProject\\DristiGems.WebApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Identity": "D:\\DristiGit\\.Net-core-API\\DristiGems.WebApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "SourceId": "DristiGems.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DristiGems_DotNetCoreProject\\DristiGems.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\DristiGit\\.Net-core-API\\DristiGems.WebApp\\wwwroot\\",
       "BasePath": "_content/DristiGems.WebApp",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.woff",
       "AssetKind": "All",
@@ -1207,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Identity": "D:\\DristiGems_DotNetCoreProject\\DristiGems.WebApp\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Identity": "D:\\DristiGit\\.Net-core-API\\DristiGems.WebApp\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "SourceId": "DristiGems.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DristiGems_DotNetCoreProject\\DristiGems.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\DristiGit\\.Net-core-API\\DristiGems.WebApp\\wwwroot\\",
       "BasePath": "_content/DristiGems.WebApp",
       "RelativePath": "css/open-iconic/FONT-LICENSE",
       "AssetKind": "All",
@@ -1224,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
-      "Identity": "D:\\DristiGems_DotNetCoreProject\\DristiGems.WebApp\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Identity": "D:\\DristiGit\\.Net-core-API\\DristiGems.WebApp\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "SourceId": "DristiGems.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DristiGems_DotNetCoreProject\\DristiGems.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\DristiGit\\.Net-core-API\\DristiGems.WebApp\\wwwroot\\",
       "BasePath": "_content/DristiGems.WebApp",
       "RelativePath": "css/open-iconic/ICON-LICENSE",
       "AssetKind": "All",
@@ -1241,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
     },
     {
-      "Identity": "D:\\DristiGems_DotNetCoreProject\\DristiGems.WebApp\\wwwroot\\css\\open-iconic\\README.md",
+      "Identity": "D:\\DristiGit\\.Net-core-API\\DristiGems.WebApp\\wwwroot\\css\\open-iconic\\README.md",
       "SourceId": "DristiGems.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DristiGems_DotNetCoreProject\\DristiGems.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\DristiGit\\.Net-core-API\\DristiGems.WebApp\\wwwroot\\",
       "BasePath": "_content/DristiGems.WebApp",
       "RelativePath": "css/open-iconic/README.md",
       "AssetKind": "All",
@@ -1258,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
     },
     {
-      "Identity": "D:\\DristiGems_DotNetCoreProject\\DristiGems.WebApp\\wwwroot\\css\\site.css",
+      "Identity": "D:\\DristiGit\\.Net-core-API\\DristiGems.WebApp\\wwwroot\\css\\site.css",
       "SourceId": "DristiGems.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DristiGems_DotNetCoreProject\\DristiGems.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\DristiGit\\.Net-core-API\\DristiGems.WebApp\\wwwroot\\",
       "BasePath": "_content/DristiGems.WebApp",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -1275,10 +1275,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "D:\\DristiGems_DotNetCoreProject\\DristiGems.WebApp\\wwwroot\\favicon.ico",
+      "Identity": "D:\\DristiGit\\.Net-core-API\\DristiGems.WebApp\\wwwroot\\favicon.ico",
       "SourceId": "DristiGems.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DristiGems_DotNetCoreProject\\DristiGems.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\DristiGit\\.Net-core-API\\DristiGems.WebApp\\wwwroot\\",
       "BasePath": "_content/DristiGems.WebApp",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",

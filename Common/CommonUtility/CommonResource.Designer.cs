@@ -169,6 +169,15 @@ namespace Common.CommonUtility {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Email sent successfully..
+        /// </summary>
+        public static string EmailSent {
+            get {
+                return ResourceManager.GetString("EmailSent", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Employee deleted successfully..
         /// </summary>
         public static string EmployeeDeleted {

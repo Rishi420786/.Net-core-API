@@ -48,3 +48,6 @@ D:\DristiGems_DotNetCoreProject\Domain\obj\Debug\net6.0\Domain.dll
 D:\DristiGems_DotNetCoreProject\Domain\obj\Debug\net6.0\ref\Domain.dll
 D:\DristiGems_DotNetCoreProject\Domain\obj\Debug\net6.0\Domain.pdb
 D:\DristiGems_DotNetCoreProject\Domain\obj\Debug\net6.0\Domain.genruntimeconfig.cache
+D:\DristiGit\.Net-core-API\Domain\bin\Debug\net6.0\Domain.runtimeconfig.json
+D:\DristiGit\.Net-core-API\Domain\obj\Debug\net6.0\Domain.genruntimeconfig.cache
+D:\DristiGit\.Net-core-API\Domain\obj\Debug\net6.0\Domain.csproj.AssemblyReference.cache

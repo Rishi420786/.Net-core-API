@@ -153,6 +153,9 @@
   <data name="DealerUpdated" xml:space="preserve">
     <value>Dealer updated successfully.</value>
   </data>
+  <data name="EmailSent" xml:space="preserve">
+    <value>Email sent successfully.</value>
+  </data>
   <data name="EmployeeDeleted" xml:space="preserve">
     <value>Employee deleted successfully.</value>
   </data>

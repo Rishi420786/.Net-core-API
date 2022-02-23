@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common", "Common\Common.csproj", "{3C1E91B0-2C38-458B-97B4-61CED96E518D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DristiGems.WebApp", "DristiGems.WebApp\DristiGems.WebApp.csproj", "{41216A7B-127A-4E4B-B6B9-478F991FF708}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DristiGems.WebApp", "DristiGems.WebApp\DristiGems.WebApp.csproj", "{41216A7B-127A-4E4B-B6B9-478F991FF708}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepositoryLayer", "RepositoryLayer\RepositoryLayer.csproj", "{D0D7CEED-2113-4C2B-9657-DA97EFABEA0C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{41216A7B-127A-4E4B-B6B9-478F991FF708}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{41216A7B-127A-4E4B-B6B9-478F991FF708}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{41216A7B-127A-4E4B-B6B9-478F991FF708}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0D7CEED-2113-4C2B-9657-DA97EFABEA0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0D7CEED-2113-4C2B-9657-DA97EFABEA0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0D7CEED-2113-4C2B-9657-DA97EFABEA0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0D7CEED-2113-4C2B-9657-DA97EFABEA0C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

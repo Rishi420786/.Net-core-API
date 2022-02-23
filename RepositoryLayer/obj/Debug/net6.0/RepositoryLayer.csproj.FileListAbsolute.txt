@@ -1,0 +1,15 @@
+D:\DristiGit\.Net-core-API\RepositoryLayer\bin\Debug\net6.0\RepositoryLayer.deps.json
+D:\DristiGit\.Net-core-API\RepositoryLayer\bin\Debug\net6.0\RepositoryLayer.dll
+D:\DristiGit\.Net-core-API\RepositoryLayer\bin\Debug\net6.0\ref\RepositoryLayer.dll
+D:\DristiGit\.Net-core-API\RepositoryLayer\bin\Debug\net6.0\RepositoryLayer.pdb
+D:\DristiGit\.Net-core-API\RepositoryLayer\bin\Debug\net6.0\Domain.dll
+D:\DristiGit\.Net-core-API\RepositoryLayer\bin\Debug\net6.0\Domain.pdb
+D:\DristiGit\.Net-core-API\RepositoryLayer\obj\Debug\net6.0\RepositoryLayer.csproj.AssemblyReference.cache
+D:\DristiGit\.Net-core-API\RepositoryLayer\obj\Debug\net6.0\RepositoryLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\DristiGit\.Net-core-API\RepositoryLayer\obj\Debug\net6.0\RepositoryLayer.AssemblyInfoInputs.cache
+D:\DristiGit\.Net-core-API\RepositoryLayer\obj\Debug\net6.0\RepositoryLayer.AssemblyInfo.cs
+D:\DristiGit\.Net-core-API\RepositoryLayer\obj\Debug\net6.0\RepositoryLayer.csproj.CoreCompileInputs.cache
+D:\DristiGit\.Net-core-API\RepositoryLayer\obj\Debug\net6.0\RepositoryLayer.csproj.CopyComplete
+D:\DristiGit\.Net-core-API\RepositoryLayer\obj\Debug\net6.0\RepositoryLayer.dll
+D:\DristiGit\.Net-core-API\RepositoryLayer\obj\Debug\net6.0\ref\RepositoryLayer.dll
+D:\DristiGit\.Net-core-API\RepositoryLayer\obj\Debug\net6.0\RepositoryLayer.pdb

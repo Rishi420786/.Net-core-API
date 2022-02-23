@@ -11,13 +11,14 @@ namespace ServiceLayer.Services
     {
         private readonly ApplicationDBContext _context;
         private readonly IMapper _mapper;
+
         public StoneShapeService(ApplicationDBContext context, IMapper mapper)
         {
             _context = context;
             _mapper = mapper;
         }
 
-        public async Task<bool> CreateStoneShape(StoneShapeDto stoneShapeDto)
+        public async Task<bool> AddRecord(StoneShapeDto stoneShapeDto)
         {
             try
             {
@@ -32,7 +33,7 @@ namespace ServiceLayer.Services
                 throw;
             }
         }
-        public async Task<IList<StoneShapeDto>> GetAllStoneShapes()
+        public async Task<IList<StoneShapeDto>> GetAllRecords()
         {
             try
             {
@@ -43,7 +44,7 @@ namespace ServiceLayer.Services
                 throw;
             }
         }
-        public async Task<StoneShapeDto> GetStoneShapeById(int? id)
+        public async Task<StoneShapeDto> GetRecordById(int? id)
         {
             try
             {
@@ -54,7 +55,7 @@ namespace ServiceLayer.Services
                 throw;
             }
         }
-        public async Task<bool> UpdateStoneShape(StoneShapeDto stoneShapeDto)
+        public async Task<bool> UpdateRecord(StoneShapeDto stoneShapeDto)
         {
             try
             {
@@ -70,7 +71,7 @@ namespace ServiceLayer.Services
             }
         }
 
-        public async Task<bool> DeleteStoneShape(int? id)
+        public async Task<bool> DeleteRecord(int? id)
         {
             try
             {
@@ -92,7 +93,7 @@ namespace ServiceLayer.Services
             }
         }
 
-        public async Task<bool> IsStoneShapeExist(string shapeName)
+        public async Task<bool> IsRecordExist(string shapeName)
         {
             try
             {

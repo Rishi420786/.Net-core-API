@@ -226,3 +226,14 @@ E:\A_Sandeep_Project\DristiGems_DotNetCoreProject\DrishtiGems.API\bin\Debug\net6
 E:\A_Sandeep_Project\DristiGems_DotNetCoreProject\DrishtiGems.API\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
 E:\A_Sandeep_Project\DristiGems_DotNetCoreProject\DrishtiGems.API\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
 E:\A_Sandeep_Project\DristiGems_DotNetCoreProject\DrishtiGems.API\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\DristiGit\.Net-core-API\DrishtiGems.API\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\DristiGit\.Net-core-API\DrishtiGems.API\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\DristiGit\.Net-core-API\DrishtiGems.API\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\DristiGit\.Net-core-API\DrishtiGems.API\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\DristiGit\.Net-core-API\DrishtiGems.API\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+D:\DristiGit\.Net-core-API\DrishtiGems.API\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+D:\DristiGit\.Net-core-API\DrishtiGems.API\bin\Debug\net6.0\MailKit.dll
+D:\DristiGit\.Net-core-API\DrishtiGems.API\bin\Debug\net6.0\MimeKit.dll
+D:\DristiGit\.Net-core-API\DrishtiGems.API\bin\Debug\net6.0\BouncyCastle.Crypto.dll
+D:\DristiGit\.Net-core-API\DrishtiGems.API\bin\Debug\net6.0\RepositoryLayer.dll
+D:\DristiGit\.Net-core-API\DrishtiGems.API\bin\Debug\net6.0\RepositoryLayer.pdb
